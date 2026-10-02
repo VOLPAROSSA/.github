@@ -80,7 +80,7 @@ The application family builds on existing open-source work rather than asking ev
 
 These are independent VOLPAROSSA integrations, not official products of the upstream projects. Upstream attribution and applicable licenses must be preserved.
 
-## Modern technology, universal morals
+## Modern technology, universal wisdom
 
 Technical capability is not enough. We also want fair, responsible use of digital services: generosity without exploitation, freedom with responsibility, and cooperation without surrendering personal dignity.
 
