@@ -1,4 +1,4 @@
-![VOLPAROSSA](https://raw.githubusercontent.com/VOLPAROSSA/volparossa/main/docs/assets/volparossa-banner.png)
+![VOLPAROSSA](https://raw.githubusercontent.com/VOLPAROSSA/.github/main/profile/assets/banner_volparossa.png)
 
 # VOLPAROSSA
 
