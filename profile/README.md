@@ -10,7 +10,7 @@ VOLPAROSSA is building a **Decentralized Intelligent Cooperative Network (DICN)*
 
 The ambition is not simply another service to subscribe to. It is infrastructure that people can help operate, understand and shape together.
 
-[Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Our principles](#old-wisdom-accountable-technology) · [Get involved](#help-build-the-next-step)
+[Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Progress](#what-works-today) · [Our principles](#modern-technology-universal-wisdom) · [Get involved](#help-build-the-next-step)
 
 *An open-source project in active development. This is the future we are working toward, not a catalogue of finished products.*
 
@@ -50,7 +50,7 @@ That also means respecting creators' rights and supporting fair, sustainable acc
 
 ## One shared foundation
 
-The [VOLPAROSSA core](https://github.com/VOLPAROSSA/volparossa) connects four complementary capabilities:
+The [VOLPAROSSA core](https://github.com/VOLPAROSSA/volparossa) brings together five complementary layers:
 
 | Layer | What we are building toward |
 | --- | --- |
@@ -58,8 +58,17 @@ The [VOLPAROSSA core](https://github.com/VOLPAROSSA/volparossa) connects four co
 | **Cache** | Reuse of authorized public content, with verification of its source and integrity. |
 | **Storage** | Encrypted private files retained across participants, with recovery copies and fair contribution. |
 | **Compute** | Agents that divide suitable tasks, combine results, share useful models and learn from measured outcomes. |
+| **Transaction** | Authorized transfers, explicit settlement states and accountable corrections; currently developed with fictitious test value. |
 
 These are shared services, not separate networks for every application. Public caching, private storage and message delivery have different permissions and lifecycles. Resource sharing should serve the device owner as well as the wider network.
+
+One compatible background core should serve several applications and continue its accepted work when a frontend closes. Application access and explicitly chosen system-wide operation remain separate permissions.
+
+Private storage follows one shared redundancy policy. Its contribution rule counts the physical space used on other devices, including recovery copies and overhead: a 1 GB encrypted file with two copies requires roughly 2 GB plus overhead of space for others. If usage falls, that contribution target falls too; existing fragments must be safely handed off before occupied capacity is released. Automatic accounting and maintenance are still being integrated.
+
+Shared AI is the default architecture, not a collection of isolated local assistants. The goal includes protected private tasks, images, audio and spoken interaction, plus autonomous research and software maintenance under the same resource and privacy boundaries. Authorized updates should eventually be distributed and installed automatically, with independent checks and recovery. These capabilities are not all operational yet.
+
+Financial participation is separate from network contribution. Joining VOLPAROSSA does not open a financial account, invest money or authorize payments.
 
 **Shared access is not connectivity created from nothing.** Devices still need a reachable connection, external internet access still needs someone's real uplink, and hardware and electricity still have costs. We are working to share that infrastructure more fairly, not promising unlimited free capacity or coverage everywhere.
 
@@ -76,9 +85,19 @@ The application family builds on existing open-source work rather than asking ev
 | [**Cloud**](https://github.com/VOLPAROSSA/volparossa-cloud) | OpenCloud | Private files and synchronization beyond one always-on server. |
 | [**Image**](https://github.com/VOLPAROSSA/volparossa-image) | Immich | Photo and video libraries with encrypted storage and recoverable state. |
 | [**Map**](https://github.com/VOLPAROSSA/volparossa-map) | Organic Maps | Offline navigation, shared map delivery and privacy-conscious traffic information. |
-| [**Weather**](https://github.com/VOLPAROSSA/volparossa-weather) | Direct public model data | Shared forecasts and improvements tested against observations. |
+| [**Weather**](https://github.com/VOLPAROSSA/volparossa-weather) | Direct ECMWF/NOAA data; Drizz.li + Overmorrow clients | Shared forecasts and improvements tested against observations. |
+| [**Bank**](https://github.com/VOLPAROSSA/volparossa-bank) | Core Transaction-layer | Participant-owned portfolios, payments and financial recovery; fictitious-value implementation first. |
+| [**Citizen**](https://github.com/VOLPAROSSA/volparossa-citizen) | Participation and voting research | Proposals and referenda alongside existing institutions; fictional-identity simulation first. |
 
 These are independent VOLPAROSSA integrations, not official products of the upstream projects. Upstream attribution and applicable licenses must be preserved.
+
+## What works today
+
+Scoped development trials demonstrate real multipath network traffic, verified peer-content retrieval, encrypted storage recovery, adapter training and public tasks on peer workers. The Drizz.li and Overmorrow web clients display and refresh real weather and particulate forecasts delivered through protected peers; their first retrieval currently precedes opening the UI. Installed Android lifecycle tests use synthetic products, and live Android-to-core delivery remains in development.
+
+A separate core trial runs signed TEST-unit transfers across four validators, rejecting conflicting spends and testing partitions, restart and replay after a committed transfer without a second debit. Bank currently connects to the owner-local transaction API. Citizen has an executable referendum-procedure simulation with fictional people. Neither project provides a live financial service, verified real-person voting or recognized public authority.
+
+The immediate integration work focuses on shared private-storage maintenance, Android Weather delivery and confidential peer-compute prerequisites. These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
 
 ## Modern technology, universal wisdom
 
@@ -98,7 +117,7 @@ The project's [seven-virtue framework](https://github.com/VOLPAROSSA/volparossa#
 | **Temperantia — moderation** | Respect resource limits and prefer useful work over endless consumption. |
 | **Castitas — interpreted here through consent, dignity and boundaries** | Reject exploitation and respect people's private lives. |
 
-The intended **shared immune system** applies these principles through mutual review: agents examine work, compare evidence and help correct harmful or unreliable behavior. Consequential decisions should have a clear scope, be explainable and remain open to correction. Privacy must not become a pretext for abuse, and safety must not become a pretext for silencing disagreement.
+The intended **shared immune system** applies these principles through mutual review across all five layers, their applications and software maintenance: agents examine work, compare evidence and help correct harmful or unreliable behavior. Consequential decisions should have a clear scope, be explainable and remain open to correction. Privacy must not become a pretext for abuse, and safety must not become a pretext for silencing disagreement.
 
 This oversight is still being developed. No automated system can be assumed infallible, and a signature does not make a judgment true. The project is not a promise of unrestricted access or exemption from applicable law. [Current principles and policy boundaries](https://github.com/VOLPAROSSA/volparossa#governed-by-7-virtues) are documented openly.
 
