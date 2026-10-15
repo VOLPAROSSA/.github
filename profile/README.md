@@ -93,11 +93,13 @@ These are independent VOLPAROSSA integrations, not official products of the upst
 
 ## What works today
 
-Scoped development trials demonstrate real multipath network traffic, verified peer-content retrieval, encrypted storage recovery, adapter training and public tasks on peer workers. The Drizz.li and Overmorrow web clients display and refresh real weather and particulate forecasts delivered through protected peers; their first retrieval currently precedes opening the UI. Installed Android lifecycle tests use synthetic products, and live Android-to-core delivery remains in development.
+Scoped development trials demonstrate real multipath network traffic, verified peer-content retrieval, encrypted storage recovery, adapter training and public tasks on peer workers. The Drizz.li and Overmorrow web clients display and refresh real weather and particulate forecasts delivered through protected peers; their first retrieval currently precedes opening the UI.
+
+The installed Overmorrow Android app also retrieves real forecasts on demand through the core in an emulator. The [joined Android trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/38717988016) checks initial data, user-triggered refresh and return from the background while the products remain fresh. Expiry with real products, physical phones and iOS remain to be demonstrated.
 
 A separate core trial runs signed TEST-unit transfers across four validators, rejecting conflicting spends and testing partitions, restart and replay after a committed transfer without a second debit. Bank currently connects to the owner-local transaction API. Citizen has an executable referendum-procedure simulation with fictional people. Neither project provides a live financial service, verified real-person voting or recognized public authority.
 
-The immediate integration work focuses on shared private-storage maintenance, Android Weather delivery and confidential peer-compute prerequisites. These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
+The immediate integration work focuses on shared private-storage maintenance, actual coding-agent execution and confidential peer-compute prerequisites, with Android expiry and broader device support still open. These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
 
 ## Modern technology, universal wisdom
 
