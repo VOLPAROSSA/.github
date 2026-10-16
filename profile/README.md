@@ -101,7 +101,7 @@ VOLPAROSSA Code now uses OpenCode on its main branch. A [real model-driven codin
 
 A separate core trial runs signed TEST-unit transfers across four validators, rejecting conflicting spends and testing partitions, restart and replay after a committed transfer without a second debit. Bank currently connects to the owner-local transaction API. Citizen has an executable referendum-procedure simulation with fictional people. Neither project provides a live financial service, verified real-person voting or recognized public authority.
 
-The immediate integration work focuses on shared private-storage maintenance and confidential peer-compute prerequisites, while preserving the demonstrated coding workflow. The latest combined storage trial stops during an Image upload; a complete Image/Cloud repair-and-restore lifecycle has not passed. Android expiry and broader device support also remain open.
+The immediate integration work focuses on shared private-storage maintenance and confidential peer-compute prerequisites, while preserving the demonstrated coding workflow. The complete Image/Cloud repair-and-restore lifecycle remains unverified; failures during publication are still being investigated. Android expiry and broader device support also remain open.
 
 These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
 
