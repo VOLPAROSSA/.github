@@ -97,9 +97,13 @@ Scoped development trials demonstrate real multipath network traffic, verified p
 
 The installed Overmorrow Android app also retrieves real forecasts on demand through the core in an emulator. The [joined Android trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/38717988016) checks initial data, user-triggered refresh and return from the background while the products remain fresh. Expiry with real products, physical phones and iOS remain to be demonstrated.
 
+VOLPAROSSA Code now uses OpenCode on its main branch. A [real model-driven coding trial](https://github.com/VOLPAROSSA/volparossa-code/actions/runs/38824828727) reads and edits a code fixture, runs an approved test and passes an independent check through the core's local CPU backend. That bounded coding task takes about 37 minutes and uses a pinned core development revision outside core `main`. It demonstrates an executable workflow, not competitive performance, general coding reliability or confidential processing on other people's devices.
+
 A separate core trial runs signed TEST-unit transfers across four validators, rejecting conflicting spends and testing partitions, restart and replay after a committed transfer without a second debit. Bank currently connects to the owner-local transaction API. Citizen has an executable referendum-procedure simulation with fictional people. Neither project provides a live financial service, verified real-person voting or recognized public authority.
 
-The immediate integration work focuses on shared private-storage maintenance, actual coding-agent execution and confidential peer-compute prerequisites, with Android expiry and broader device support still open. These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
+The immediate integration work focuses on shared private-storage maintenance and confidential peer-compute prerequisites, while preserving the demonstrated coding workflow. The latest combined storage trial stops during an Image upload; a complete Image/Cloud repair-and-restore lifecycle has not passed. Android expiry and broader device support also remain open.
+
+These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
 
 ## Modern technology, universal wisdom
 
