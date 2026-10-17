@@ -93,17 +93,16 @@ These are independent VOLPAROSSA integrations, not official products of the upst
 
 ## What works today
 
-Scoped development trials demonstrate real multipath network traffic, verified peer-content retrieval, encrypted storage recovery, adapter training and public tasks on peer workers. The Drizz.li and Overmorrow web clients display and refresh real weather and particulate forecasts delivered through protected peers; their first retrieval currently precedes opening the UI.
+The project has working components and tested application workflows, but no supported end-user release. The main milestones are:
 
-The installed Overmorrow Android app also retrieves real forecasts on demand through the core in an emulator. The [joined Android trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/38717988016) checks initial data, user-triggered refresh and return from the background while the products remain fresh. Expiry with real products, physical phones and iOS remain to be demonstrated.
+- **Shared infrastructure:** scoped trials demonstrate real multipath network traffic, verified content retrieval from peers, encrypted storage recovery, adapter training and public tasks on peer workers. These are component results, not a completed network service.
+- **Weather:** Drizz.li and Overmorrow web clients display and refresh real weather and particulate forecasts delivered through protected peers. Their first retrieval currently precedes opening the UI. The installed Overmorrow Android app also retrieves real forecasts on demand through the core in an emulator, including refresh and return from the background while forecasts remain fresh. Expiry with real products, physical phones and iOS remain open.
+- **Code:** OpenCode is now the basis of VOLPAROSSA Code on its main branch, and the native CPU backend is integrated into core `main`. A real model-driven trial reads and edits a code fixture, runs an approved test and passes an independent check through the core's local CPU backend. This bounded task takes about 37 minutes and uses its original pinned core revision; the model trial has not been repeated on the newly integrated core. It proves an executable workflow, not competitive performance, general coding reliability or confidential processing on other people's devices.
+- **Bank and Citizen:** a core trial transfers signed TEST units across four validators, rejects conflicting spends and tests partitions, restart and replay after a committed transfer without a second debit. Bank currently connects to the owner-local transaction API. Citizen has an executable referendum-procedure simulation with fictional people. Neither provides a live financial service, verified real-person voting or recognized public authority.
 
-VOLPAROSSA Code now uses OpenCode on its main branch, and the native CPU backend is now on core `main`. A [real model-driven coding trial](https://github.com/VOLPAROSSA/volparossa-code/actions/runs/38824828727) reads and edits a code fixture, runs an approved test and passes an independent check through the core's local CPU backend. That bounded coding task takes about 37 minutes and remains tied to its original pinned core revision. The newly integrated core has passed source checks, but that model trial has not been repeated on it. The trial demonstrates an executable workflow, not competitive performance, general coding reliability or confidential processing on other people's devices.
+The next shared dependencies are private-storage maintenance and protected peer compute. The complete Image/Cloud publication, repair, repeated restoration and deletion lifecycle remains unverified. Confidential execution of private tasks on other people's devices is not yet available; source checks and public guest trials do not establish that protection.
 
-A separate core trial runs signed TEST-unit transfers across four validators, rejecting conflicting spends and testing partitions, restart and replay after a committed transfer without a second debit. Bank currently connects to the owner-local transaction API. Citizen has an executable referendum-procedure simulation with fictional people. Neither project provides a live financial service, verified real-person voting or recognized public authority.
-
-The immediate integration work focuses on shared private-storage maintenance and confidential peer-compute prerequisites, while preserving the demonstrated coding workflow. The complete Image/Cloud repair-and-restore lifecycle remains unverified; failures during publication are still being investigated. Android expiry and broader device support also remain open.
-
-These milestones do not complete every application or make development builds suitable as a sole backup. See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) and [detailed evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md).
+See the [core development summary](https://github.com/VOLPAROSSA/volparossa#development-status) for the short status, the [current execution plan](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md#execution-priorities-and-next-milestones) for upcoming milestones, and the [evidence ledger](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md) for exact tested versions and remaining gaps.
 
 ## Modern technology, universal wisdom
 
@@ -135,7 +134,7 @@ Developers, designers, researchers, translators, educators and prospective users
 
 Working components and scoped trials already exist, but there is **no supported end-user release**. Complete applications, dependable shared AI, confidential computation on other people's devices and automatic resource maintenance remain in development. Do not use development builds as your only backup or rely on them to protect sensitive activity.
 
-[**Explore the core**](https://github.com/VOLPAROSSA/volparossa) · [**Read the development status**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md) · [**Find your starting point**](https://github.com/VOLPAROSSA/volparossa/blob/main/CONTRIBUTING.md)
+[**Explore the core**](https://github.com/VOLPAROSSA/volparossa) · [**Documentation guide**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/README.md) · [**Frequently asked questions**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/FAQ.md) · [**Contribute**](https://github.com/VOLPAROSSA/volparossa/blob/main/CONTRIBUTING.md)
 
 ---
 
