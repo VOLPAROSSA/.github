@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible problem using safe, minimal information.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include secrets, private logs or vulnerability details. See SECURITY.md for private reporting."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: What were you trying to do, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Safe reproduction
+      description: Smallest public or synthetic example; include commands where useful. Do not test on an active network or other people's systems.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Revision and environment
+      description: Repository commit or version, OS, and relevant browser, device or tool versions. Say if unknown.
+    validations:
+      required: true

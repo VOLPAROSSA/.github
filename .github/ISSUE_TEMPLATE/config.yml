@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and cross-project ideas
+    url: https://github.com/VOLPAROSSA/volparossa/discussions
+    about: Join the central community discussion; keep actionable work in the owning repository.
+  - name: Security reporting
+    url: https://github.com/VOLPAROSSA/.github/blob/main/SECURITY.md
+    about: Read the private reporting guidance before sharing any security details.

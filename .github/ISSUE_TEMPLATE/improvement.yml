@@ -1,0 +1,22 @@
+name: Improvement
+description: Propose a bounded code, documentation, research, design or accessibility improvement.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Who would this help, and how?
+      description: Describe the task or barrier. Link relevant existing work.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Smallest useful result
+      description: Suggest an observable outcome and how it could be checked. It is fine to ask for help defining this.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and tradeoffs
+      description: Relevant accessibility, privacy, safety, licensing or maintenance considerations, if known.
