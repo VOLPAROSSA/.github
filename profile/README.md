@@ -1,4 +1,4 @@
-![VOLPAROSSA](https://raw.githubusercontent.com/VOLPAROSSA/.github/main/profile/assets/banner_volparossa.png)
+![VOLPAROSSA artwork: a golden compass, connected globe and wolf](https://raw.githubusercontent.com/VOLPAROSSA/.github/main/profile/assets/banner_volparossa.png)
 
 # VOLPAROSSA
 
@@ -12,7 +12,9 @@ The ambition is not simply another service to subscribe to. It is infrastructure
 
 [Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Progress](#what-works-today) · [Our principles](#modern-technology-universal-wisdom) · [Get involved](#help-build-the-next-step)
 
-*An open-source project in active development. This is the future we are working toward, not a catalogue of finished products.*
+*Development preview: working milestones and open research, with no supported end-user release.*
+
+**Start here:** [Understand the project](https://github.com/VOLPAROSSA/volparossa#why-a-dicn) · [Inspect the evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md) · [Find a contribution](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) · [Join the discussion](https://github.com/VOLPAROSSA/volparossa/discussions)
 
 ## Why we are building this
 
@@ -134,7 +136,7 @@ Developers, designers, researchers, translators, educators and prospective users
 
 Working components and scoped trials already exist, but there is **no supported end-user release**. Complete applications, dependable shared AI, confidential computation on other people's devices and automatic resource maintenance remain in development. Do not use development builds as your only backup or rely on them to protect sensitive activity.
 
-[**Explore the core**](https://github.com/VOLPAROSSA/volparossa) · [**Documentation guide**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/README.md) · [**Frequently asked questions**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/FAQ.md) · [**Contribute**](https://github.com/VOLPAROSSA/volparossa/blob/main/CONTRIBUTING.md)
+[**Explore the core**](https://github.com/VOLPAROSSA/volparossa) · [**Documentation guide**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/README.md) · [**Frequently asked questions**](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/FAQ.md) · [**Contribute**](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) · [**Community guidelines**](https://github.com/VOLPAROSSA/.github/blob/main/CODE_OF_CONDUCT.md) · [**Accessibility**](https://github.com/VOLPAROSSA/.github/blob/main/ACCESSIBILITY.md)
 
 ---
 
