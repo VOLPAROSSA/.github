@@ -2,45 +2,43 @@
 
 # VOLPAROSSA
 
-### Shared resources. Shared intelligence. Opportunity for everyone.
+### Everyday tools. Shared resources. More within reach.
 
-**Access to the internet, knowledge and useful AI should not depend on wealth, a premium subscription or owning the most powerful device.**
+**Check a forecast. Write some code. Keep your photos and files under your control. A modest device should be a starting point, not a limit on what you can do.**
 
-VOLPAROSSA is building a **Decentralized Intelligent Cooperative Network (DICN)**: an open-source network where participants share connectivity, storage and computing power. One reusable core brings those resources to a family of privacy-respecting applications.
+VOLPAROSSA is building an open-source, participant-operated network that brings shared connections, storage and computing to familiar applications. The aim is practical: useful AI beyond one device's capacity, private data without dependence on one always-on personal server, and tools people can inspect and help shape.
 
-The ambition is not simply another service to subscribe to. It is infrastructure that people can help operate, understand and shape together.
+One reusable core connects the applications, so they can draw on the same shared services rather than each needing its own infrastructure. This is a **Decentralized Intelligent Cooperative Network (DICN)**—built around what people want to do, and what they can contribute together.
 
-[Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Progress](#what-works-today) · [Our principles](#modern-technology-universal-wisdom) · [Get involved](#help-build-the-next-step)
+*Development preview: selected workflows have been demonstrated; there is no supported end-user release.*
 
-*Development preview: working milestones and open research, with no supported end-user release.*
+**Help build one useful next step:** [Find a contribution](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) · [Inspect a working milestone](#what-works-today) · [Ask a question](https://github.com/VOLPAROSSA/volparossa/discussions)
 
-**Start here:** [Understand the project](https://github.com/VOLPAROSSA/volparossa#why-a-dicn) · [Inspect the evidence](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md) · [Find a contribution](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) · [Join the discussion](https://github.com/VOLPAROSSA/volparossa/discussions)
+[Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Our principles](#modern-technology-universal-wisdom)
 
 ## Why we are building this
 
-### Internet and AI within everyone's reach
+### More help than one device can provide
 
-We want people everywhere—rich or poor—to be able to connect, learn, create and benefit from AI without being left behind as technology advances.
+Learning a new skill, understanding a document or working through a coding problem should not require owning the largest computer. Our goal is for a modest device to reach models and agents working across shared capacity, with suitable tasks divided between participants.
 
-The long-term goal is access through a cooperative network **without every person needing their own SIM card, mobile data subscription or paid AI plan**. Local connections between participating devices and shared internet uplinks would provide an alternative where suitable links and peers are available, reducing dependence on any one mobile provider.
+That is why shared AI belongs in the common core: the browser, mail client and coding assistant should benefit from the same improvements, rather than each building an isolated assistant. Dependable shared AI and protected execution of private tasks are still being developed. More participants alone do not prove better answers.
 
-A modest device should be a doorway to shared capabilities, not the ceiling on what its owner can do. Fair participation must make room for limited resources, and accessibility, language support and usable interfaces belong in the design from the beginning.
+### Familiar tools, more control over your data
 
-### Fewer data centers, better use of existing devices
+People already rely on Firefox, Signal, Thunderbird and other open-source applications. We are integrating shared services with those foundations so people can keep recognizable tools while gaining more choice over where their work and data live.
 
-We aim to reduce the number of data centers needed for everyday digital services by making better use of devices, connections and storage that already exist.
+The goal includes private photo and file storage without needing to operate a permanently running server yourself. Messages, files and journeys must not become the price of admission or silently become shared training data. Complete server-independent services and their maintenance remain unfinished.
 
-Share eligible content instead of repeatedly downloading it. Reuse useful models instead of duplicating every effort. Place suitable work where spare capacity can be used responsibly. Build for longevity rather than making constant hardware replacement a condition of participation.
+Here, sovereignty means practical control: inspect the software, understand its limits, choose how resources are shared and retain the freedom to move to other tools. It is a design commitment, not an unconditional privacy guarantee.
 
-This goal has to be measured: additional replicas, transfers and computation also have costs. **Decentralization is not, by itself, proof of lower energy use.** The aim is less total waste—not moving an invisible burden onto participants.
+### Make a contribution useful across applications
 
-### Sovereign applications, with privacy built in
+A verified public forecast can serve more than one weather client. A storage repair should benefit both a file library and a photo library. A better task scheduler should help every application using shared compute. Building these services once makes each contribution relevant beyond a single app.
 
-We want to strengthen the infrastructure behind open-source, privacy-friendly applications: communication, files, photographs, navigation, coding and more.
+We want to use existing devices and suitable spare capacity responsibly, with the owner's activity taking priority. Reusing eligible content and models may avoid repeated work, but transfers, recovery copies and computation also have costs. Lower energy use, lower bills and fewer data centers are goals to evaluate, not demonstrated benefits.
 
-Here, sovereignty means practical control for people and communities: the ability to inspect the software, choose how resources are shared, keep control of private data and move to other tools. The goal is to reduce dependence on a single vendor, account system or always-on personal server without replacing it with another mandatory gatekeeper.
-
-Private messages, files and journeys must not become the price of admission. Nor should they silently become shared training data. Participants should contribute deliberately, within limits that respect their own work, battery, bandwidth and storage.
+Joining is voluntary. Production network use is reciprocal: consumers must offer nonzero relay capacity, and nodes with a usable independent internet uplink must also offer exit service. Local-only nodes contribute their links without providing an exit. Reachable links, power and someone's real internet uplink are still necessary; sharing does not create free connectivity.
 
 ### Knowledge across borders, understanding across differences
 
@@ -132,7 +130,9 @@ This oversight is still being developed. No automated system can be assumed infa
 
 **You do not have to wait for a finished product to help shape it.**
 
-Developers, designers, researchers, translators, educators and prospective users can all contribute: improve an explanation, challenge an assumption, discuss access on modest devices, reproduce a bounded test or help complete one useful integration. Honest questions and careful criticism are welcome alongside code.
+- **Build something people can use.** Developers, designers, translators and educators can improve one integration, clarify a guide or remove an accessibility barrier. The [contribution guide](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) explains how to choose a bounded task; documentation work does not require running the network.
+- **Put an assumption to the test.** Researchers can examine a recorded workflow, challenge a privacy or resource-sharing assumption, or propose a fair comparison. Bring evidence and limits to the [project discussion](https://github.com/VOLPAROSSA/volparossa/discussions); interest is welcome without a partnership commitment.
+- **Help the work reach the right people.** Supporters and prospective users can explain a real need, review an explanation or share a milestone with its qualifications. The [supporting guide](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/community/SUPPORTING.md) covers useful help. Financial sponsorship remains pending; joining the network requires no payment, token or investment.
 
 Working components and scoped trials already exist, but there is **no supported end-user release**. Complete applications, dependable shared AI, confidential computation on other people's devices and automatic resource maintenance remain in development. Do not use development builds as your only backup or rely on them to protect sensitive activity.
 
