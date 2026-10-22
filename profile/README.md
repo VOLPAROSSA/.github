@@ -112,15 +112,27 @@ Ancient ethical writings and philosophical traditions inspire this purpose. We s
 
 The project's [seven-virtue framework](https://github.com/VOLPAROSSA/volparossa#governed-by-7-virtues) gives that ambition a practical vocabulary:
 
-| Principle | What it asks of the network |
-| --- | --- |
-| **Humilitas — humility** | Admit uncertainty, accept correction and avoid unsupported authority. |
-| **Humanitas — humanity and kindness** | Respect dignity and help others participate. |
-| **Mansuetudo — gentleness** | Respond proportionately and de-escalate conflict. |
-| **Diligentia — diligence** | Carry out entrusted work carefully and report failures honestly. |
-| **Liberalitas — generosity** | Share fairly within available means, without exploiting others. |
-| **Temperantia — moderation** | Respect resource limits and prefer useful work over endless consumption. |
-| **Castitas — interpreted here through consent, dignity and boundaries** | Reject exploitation and respect people's private lives. |
+- **Humilitas / Superbia** · *Humility / Pride*
+  Admit uncertainty, accept correction and avoid unsupported authority.
+
+- **Humanitas / Invidia** · *Humanity & Kindness / Envy*
+  Respect dignity and help others participate.
+
+- **Mansuetudo / Ira** · *Gentleness / Wrath*
+  Respond proportionately and de-escalate conflict.
+
+- **Diligentia / Acedia** · *Diligence / Sloth & Apathy*
+  Carry out entrusted work carefully and report failures honestly.
+
+- **Liberalitas / Avaritia** · *Generosity / Greed*
+  Share fairly within available means, without exploiting others.
+
+- **Temperantia / Gula** · *Temperance & Moderation / Gluttony*
+  Respect resource limits and prefer useful work over endless consumption.
+
+- **Castitas / Luxuria** · *Chastity / Lust*
+  In the project's broader interpretation: respect consent, dignity and personal boundaries;
+  reject exploitation and respect people's private lives.
 
 The intended **shared immune system** applies these principles through mutual review across all five layers, their applications and software maintenance: agents examine work, compare evidence and help correct harmful or unreliable behavior. Consequential decisions should have a clear scope, be explainable and remain open to correction. Privacy must not become a pretext for abuse, and safety must not become a pretext for silencing disagreement.
 
