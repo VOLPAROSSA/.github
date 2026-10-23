@@ -10,6 +10,7 @@ applications and source-bound development evidence.
 - [Support and discussions](SUPPORT.md): find the right place for a question.
 - [Security](SECURITY.md): report vulnerabilities privately.
 - [Accessibility](ACCESSIBILITY.md): report barriers and improve access.
+- [Community maintenance](COMMUNITY_MAINTENANCE.md): maintain shared guidance and verify reporting settings.
 
 Repository-specific files take precedence over these defaults. GitHub does not
 inherit a license from this repository: each project must retain its own license
