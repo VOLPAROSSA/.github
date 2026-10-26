@@ -12,7 +12,7 @@ One reusable core connects the applications, so they can draw on the same shared
 
 *Development preview: selected workflows have been demonstrated; there is no supported end-user release.*
 
-**Help build one useful next step:** [Find a contribution](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) · [Inspect a working milestone](#what-works-today) · [Ask a question](https://github.com/VOLPAROSSA/volparossa/discussions)
+**Help build one useful next step:** [Find a contribution](https://github.com/VOLPAROSSA/.github/blob/main/CONTRIBUTING.md) · [Good first issues](https://github.com/search?q=org%3AVOLPAROSSA+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22&type=issues) · [Help wanted](https://github.com/search?q=org%3AVOLPAROSSA+is%3Aissue+is%3Aopen+label%3A%22help+wanted%22&type=issues) · [Inspect a working milestone](#what-works-today) · [Ask a question](https://github.com/VOLPAROSSA/volparossa/discussions)
 
 [Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Our principles](#modern-technology-universal-wisdom)
 
