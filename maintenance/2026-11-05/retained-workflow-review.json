@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "repository": "VOLPAROSSA/volparossa",
+  "observed_at_utc": "2026-11-05T23:25:20.897516+00:00",
+  "main_sha": "ba6ab458429f5ac50cdc8c3538e6d24f44aad916",
+  "state": "retained_after_server_error",
+  "archived_branches": 0,
+  "retained_branches": 21,
+  "open_pr_associations_at_review": 0,
+  "workflow_review": {
+    "head_workflow_instances": 495,
+    "unique_workflow_blobs": 104,
+    "branch_filtered_push_definitions": 428,
+    "tag_or_unfiltered_push_definitions": 0,
+    "create_or_delete_definitions": 0,
+    "matching_default_branch_push_filters": 0
+  },
+  "canary": {
+    "source": "a55f6338659559c2386ebe96d5759881a82bd004",
+    "workflow_path": ".github/workflows/maintenance-deletion-canary.yml",
+    "workflow_id": 408739563,
+    "positive_run_id": 42126821060,
+    "positive_run_url": "https://github.com/VOLPAROSSA/volparossa/actions/runs/42126821060",
+    "positive_deleted_flag": false,
+    "deleted_at_utc": "2026-11-05T23:06:30.453997+00:00",
+    "last_run_observation_utc": "2026-11-05T23:12:22Z",
+    "final_ref_check_utc": "2026-11-05T23:12:26Z",
+    "branch_absent": true,
+    "main_unchanged": true,
+    "deletion_or_unexpected_push_runs_observed": 0,
+    "query_scope": "Workflow ID without branch filter plus repository push runs since publication; five complete snapshots, one page and one positive-control run per collection.",
+    "limit": "No deletion run observed during this five-minute-fifty-two-second interval; not a universal no-trigger guarantee."
+  },
+  "archive_attempts": [
+    {
+      "updated_refs_requested": 14,
+      "result": "rejected_no_changes",
+      "reason": "GH013: Pushes can not update more than 5 branches or tags."
+    },
+    {
+      "updated_refs_requested": 4,
+      "result": "rejected_no_changes",
+      "reason": "fatal error in commit_refs_rules"
+    },
+    {
+      "updated_refs_requested": 2,
+      "result": "rejected_no_changes",
+      "reason": "fatal error in commit_refs_rules"
+    }
+  ],
+  "guards_preserved": [
+    "same authenticated remote",
+    "atomic tag creation and branch deletion",
+    "exact original-head lease",
+    "absent-tag lease",
+    "open PR head/base exclusion",
+    "unchanged default branch",
+    "no ruleset or credential changes"
+  ],
+  "next_step": "Investigate or wait for the GitHub server error to resolve. Before any later attempt, refresh refs, tags, branch protection and open PR associations; use one atomic head/tag pair with the same guards.",
+  "branches": [
+    {
+      "branch": "proof/p03a-f04-clippy-20261027",
+      "sha": "fa70279016baa24f6ac431dcf17bef4c819f8a63",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03a-f04-clippy-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "proof/p03b-f04-config-clippy-20261027",
+      "sha": "7b9df56ede86621e6e8e9a913f4e1da01c8868d1",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03b-f04-config-clippy-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "proof/p03c-f04-simple-clippy-20261027",
+      "sha": "5cb77f0b5d06a5a0f9cbde72c53d36261b992a3c",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03c-f04-simple-clippy-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "proof/p03d-f04-duration-clippy-20261027",
+      "sha": "953fd0b824d1caff6a0d61e8a70ecabe9956e1e5",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03d-f04-duration-clippy-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "proof/p03e-f04-eight-clippy-20261027",
+      "sha": "0639a42aecc5ed2958edf28fb92260d9c14a0459",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03e-f04-eight-clippy-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "proof/p03f-f04-collapse-20261027",
+      "sha": "3fd6376de8cccc3688d0dc744c04630eb5c571e4",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03f-f04-collapse-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "proof/p03f-f04-collapse-corrected-20261027",
+      "sha": "f7464cdaa64094abd2727ccd656e6ec34aa74126",
+      "proposed_archive_tag": "archive/2026-11-05/proof/p03f-f04-collapse-corrected-20261027",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "diagnostic/storage-lock-3630ff79",
+      "sha": "793b27cff02d399822672a42ce1b2ed8ef962dbc",
+      "proposed_archive_tag": "archive/2026-11-05/diagnostic/storage-lock-3630ff79",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "feature/cloud-upload-maintenance-proof",
+      "sha": "4f5e5d7e8d0e017a8881d4ae83a2e6e59c21fba6",
+      "proposed_archive_tag": "archive/2026-11-05/feature/cloud-upload-maintenance-proof",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "feature/protected-resident-image",
+      "sha": "339294e0f31c7ebccf7bbffcd18819fefe84dfcc",
+      "proposed_archive_tag": "archive/2026-11-05/feature/protected-resident-image",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "feature/protected-resident-model",
+      "sha": "2d004c2466ef8b76bfa66fdee397ddc67721bcf2",
+      "proposed_archive_tag": "archive/2026-11-05/feature/protected-resident-model",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "feature/protected-resident-task",
+      "sha": "372cad8a58731ca697814763edac94110ce9796b",
+      "proposed_archive_tag": "archive/2026-11-05/feature/protected-resident-task",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "fix/resident-installer-private-create-20261028",
+      "sha": "6c0cb480663f4fcbea270d5cc26db5598fab03ad",
+      "proposed_archive_tag": "archive/2026-11-05/fix/resident-installer-private-create-20261028",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "fix/resident-pinned-guest-compiler-20261028",
+      "sha": "0d12983afa486e7f18ebc37517dc8a65bd1b346e",
+      "proposed_archive_tag": "archive/2026-11-05/fix/resident-pinned-guest-compiler-20261028",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "fix/resident-runtime-assembly-diagnostic-20261028",
+      "sha": "812b25ed08cee33c6e4a865ce6ce0ba87f5a9e7e",
+      "proposed_archive_tag": "archive/2026-11-05/fix/resident-runtime-assembly-diagnostic-20261028",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "integration/resident-current-main-20261028",
+      "sha": "d89aaca694eebb7a81c5a5a0ea9caf1dfa11189c",
+      "proposed_archive_tag": "archive/2026-11-05/integration/resident-current-main-20261028",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "test/public-content-daemon-recovery-20261028",
+      "sha": "61252207a9c5b9d708abf3341bf571be9799d77f",
+      "proposed_archive_tag": "archive/2026-11-05/test/public-content-daemon-recovery-20261028",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "test/storage-challenge-backpressure",
+      "sha": "eaf9fa237a83dc3ded35c6afb301cdd35b6b90c9",
+      "proposed_archive_tag": "archive/2026-11-05/test/storage-challenge-backpressure",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "test/storage-challenge-kernel-mptcp",
+      "sha": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a",
+      "proposed_archive_tag": "archive/2026-11-05/test/storage-challenge-kernel-mptcp",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "test/storage-selector-close-20261022",
+      "sha": "e44e085d4b69b0019c57ec96b4eb3d346d26b1e3",
+      "proposed_archive_tag": "archive/2026-11-05/test/storage-selector-close-20261022",
+      "state": "original_head_verified_tag_absent"
+    },
+    {
+      "branch": "test/storage-tls-receipt",
+      "sha": "b2f699e896a241033b7bd11c51a8d2ede25d49f3",
+      "proposed_archive_tag": "archive/2026-11-05/test/storage-tls-receipt",
+      "state": "original_head_verified_tag_absent"
+    }
+  ]
+}
