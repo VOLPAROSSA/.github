@@ -139,11 +139,20 @@ Storage acceptance still depends on Core.
 
 All 14 repository rulesets were read and retain default-branch deletion, history
 rewrite and PR protection. Twelve code/application repositories require their
-relevant Actions check. Organization-wide Actions administration and classic
-branch-protection endpoints returned HTTP 403 for the integration; their state
-is unknown. The [owner export script](scripts/maintenance/export-github-settings.py)
-and [CLI instructions](maintenance/2026-11-05/ADMINISTRATION.txt) complete that
-inspection without exporting secrets or rewriting protection rules.
+relevant Actions check. The owner subsequently supplied an export on 5 November;
+it was reviewed privately and confirms the existing per-repository protection.
+The two requested portal preferences are verified enabled. The raw export is not
+published here, and no protection or reserved Pages configuration was changed.
+
+The [owner export script](scripts/maintenance/export-github-settings.py) now
+distinguishes GitHub's explicit absence of a classic branch rule from an unreadable
+resource, records plan-specific availability separately, and queries an Actions
+allowlist only when that policy is selected. Generic access failures still fail
+the export. Future exports also include the current code-security configuration
+defaults; legacy new-repository fields alone do not establish those defaults.
+The earlier [CLI instructions](maintenance/2026-11-05/ADMINISTRATION.txt) remain
+as the dated maintenance record; the received export does not need to be repeated
+for the existing repositories.
 
 ## Maintenance rules
 
