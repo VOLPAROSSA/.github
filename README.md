@@ -11,6 +11,7 @@ applications and source-bound development evidence.
 - [Security](SECURITY.md): report vulnerabilities privately.
 - [Accessibility](ACCESSIBILITY.md): report barriers and improve access.
 - [Community maintenance](COMMUNITY_MAINTENANCE.md): maintain shared guidance and verify reporting settings.
+- [Organization maintenance](MAINTENANCE.md): repository responsibilities, retained integration work and the central build queue.
 
 Repository-specific files take precedence over these defaults. GitHub does not
 inherit a license from this repository: each project must retain its own license
