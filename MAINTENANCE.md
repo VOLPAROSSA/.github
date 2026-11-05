@@ -55,23 +55,26 @@ relevant checks before it becomes an integration candidate.
 
 | Order | Work stream | Next concrete result / retained review |
 | --- | --- | --- |
-| 1 | Security and routine maintenance | Finish the reviewed [RustSec refresh #367](https://github.com/VOLPAROSSA/volparossa/pull/367) under the existing Quality gate. Compatible dependency updates are grouped; major upgrades still need individual review. |
-| 2 | Core and consumer Storage | Start with the cumulative [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279), [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) and [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8). Reconcile current main, then prove one complete upload/renew/repair/restore/delete lifecycle with bounded authority and cleanup. Earlier [Core #208](https://github.com/VOLPAROSSA/volparossa/pull/208) and [#196](https://github.com/VOLPAROSSA/volparossa/pull/196) contain distinct history and are not claimed equivalent. |
-| 3 | Resident Compute | Review the accumulated integration in [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) against current main. Retain [#276](https://github.com/VOLPAROSSA/volparossa/pull/276) as a distinct cumulative draft: its current head is not contained in #332. Public-model evidence does not establish confidential execution. |
-| 4 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
-| 5 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) retain the separate blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
+| Ongoing | Security and routine maintenance | The reviewed [RustSec refresh #367](https://github.com/VOLPAROSSA/volparossa/pull/367) is integrated after Quality and CodeQL passed. The pin is `26fd2d43f7280a1fb925a3743ec463017afe7119`; keep the scheduled advisory review active. Minor/patch proposals are grouped; major upgrades still need individual review. Grouping is not compatibility proof: pre-1.0 minor changes, compiler requirements and deliberately exact pins still need source review. The new [Cargo group #369](https://github.com/VOLPAROSSA/volparossa/pull/369) changes exact runtime/compiler pins and requires that separate review before integration. |
+| 1 | Core and consumer Storage | Start with the cumulative [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279), [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) and [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8). Reconcile current main, then prove one complete upload/renew/repair/restore/delete lifecycle with bounded authority and cleanup. Parked historical [Core #208](https://github.com/VOLPAROSSA/volparossa/pull/208) and [#196](https://github.com/VOLPAROSSA/volparossa/pull/196) contain distinct history and are not claimed equivalent. Parking them does not satisfy #279’s maintenance/consumer acceptance prerequisites. |
+| 2 | Resident Compute | Review the accumulated integration in [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) against current main. Parked [#276](https://github.com/VOLPAROSSA/volparossa/pull/276) retains distinct source: its head is not contained in #332. Public-model evidence does not establish confidential execution. |
+| 3 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
+| 4 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) are parked historical records of the blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
 
-Storage diagnostics [#268](https://github.com/VOLPAROSSA/volparossa/pull/268),
+Parked Storage diagnostics [#268](https://github.com/VOLPAROSSA/volparossa/pull/268),
 [#300](https://github.com/VOLPAROSSA/volparossa/pull/300),
 [#285](https://github.com/VOLPAROSSA/volparossa/pull/285) and
-[#339](https://github.com/VOLPAROSSA/volparossa/pull/339) support the Storage work
-stream; they are not four independent product milestones. #285 and the predecessor
+[#339](https://github.com/VOLPAROSSA/volparossa/pull/339) support later deliberate selection for the Storage work
+stream; they are closed historical reviews, not active integration or accepted features. #285 and the predecessor
 of #300 diverge by one commit. Preserve that distinction when reconciling them.
 
 ## November consolidation record
 
 The audit began with **14 repositories, 129 branches, 59 open PRs and 49
-committed workflows**. Counts are a dated baseline, not live status.
+committed workflows**. Forty-two branch tips are archived, fifteen redundant reviews were closed and
+nine experiments parked. Dependabot has already opened fresh grouped proposals;
+the exact later counts and observation time are recorded in the audit snapshot. See the [audit snapshot](maintenance/2026-11-05/audit-summary.json). Counts
+are dated observations, not live status.
 
 Verified and merged: [Browser #20](https://github.com/VOLPAROSSA/volparossa-browser/pull/20)
 (bounded workflow), [Core #360](https://github.com/VOLPAROSSA/volparossa/pull/360)
@@ -82,8 +85,17 @@ Verified and merged: [Browser #20](https://github.com/VOLPAROSSA/volparossa-brow
 real-sensor positioning or consumer Storage acceptance is inferred. Image's
 aggregate CodeQL check was neutral, not a successful complete scan.
 
+[Code #29](https://github.com/VOLPAROSSA/volparossa-code/pull/29) integrates the
+truncated-SSE regression contribution from #26, with original attribution, bounded
+tests and verified partial-byte arrival. All 11 focused tests and hosted checks
+passed. Compatible dependency grouping is integrated in Core #366, Browser #23, Code #28,
+Cloud #24 and Image #18. Core #366 also integrates the architecture ownership map,
+single-source documentation table and corrected F04 integration status; Quality
+and all CodeQL language checks passed.
+
 The following redundant review entries were closed; source commits and original
-evidence were preserved. Cumulative survivors now target main and remain drafts.
+evidence were preserved. Cumulative reviews were retargeted to main as drafts; the additional parking
+decisions below then distinguish active integration from retained experiments.
 
 | Closed review | Retained review / reason |
 | --- | --- |
@@ -98,6 +110,40 @@ evidence were preserved. Cumulative survivors now target main and remain drafts.
 | Core #348 | Cumulative #350. |
 | Cloud #13, #14 | Cumulative #15. |
 | Image #6, #7 | Cumulative #8. |
+| Code #26 | Corrected contribution integrated as #29, preserving author attribution. |
+
+## Parked experiments and branch archive
+
+Core #196, #208, #268, #285, #300 and #339 are parked behind the active Storage
+work stream; #276 is parked behind Compute #332; #345/#346 retain the abandoned
+artifact-archive approach behind the source-build work. Their exact source refs (branches or named archive tags) and
+evidence remain available. These administrative closures do not claim that the
+active candidates contain their commits or satisfy their unmet requirements.
+See the [exact parked heads](maintenance/2026-11-05/parked-prs.json).
+
+**42 retired branches** were replaced atomically by
+`archive/2026-11-05/<original-branch>` tags, preserving each exact commit and its
+history. Every resulting remote tag and absent branch was checked. The
+[archive manifest](maintenance/2026-11-05/branch-archive.json) gives the restoration
+reference for each branch. Twenty-one additional historical branches were retained
+because deletion could match a workflow push trigger; they require a separate
+[trigger review](maintenance/2026-11-05/retained-workflow-branches.json). Open PR heads/bases and all owner-reserved repositories were excluded.
+
+Cloud #15 and Image #8 have now normally merged current main while remaining
+drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
+`9c01c932a8443e689f5fd51c1a17d6c96156821a` pass their hosted source checks and
+CodeQL. Cloud pins exact Image draft bytes with explicit provenance. Full consumer
+Storage acceptance still depends on Core.
+
+## Administrative settings
+
+All 14 repository rulesets were read and retain default-branch deletion, history
+rewrite and PR protection. Twelve code/application repositories require their
+relevant Actions check. Organization-wide Actions administration and classic
+branch-protection endpoints returned HTTP 403 for the integration; their state
+is unknown. The [owner export script](scripts/maintenance/export-github-settings.py)
+and [CLI instructions](maintenance/2026-11-05/ADMINISTRATION.txt) complete that
+inspection without exporting secrets or rewriting protection rules.
 
 ## Maintenance rules
 

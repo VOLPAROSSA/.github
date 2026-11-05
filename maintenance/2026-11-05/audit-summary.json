@@ -1,0 +1,571 @@
+{
+  "observed_at_utc": "2026-11-05T19:28:26.447Z",
+  "baseline": {
+    "repositories": 14,
+    "branches": 129,
+    "open_prs": 59,
+    "committed_workflows": 49
+  },
+  "result": {
+    "branches": 83,
+    "open_prs": 31,
+    "archived_branches": 42,
+    "closed_redundant_prs": 15,
+    "parked_prs": 9,
+    "retained_historical_branches_with_workflow_triggers": 21
+  },
+  "reserved_repositories": [
+    {
+      "repo": "volparossa-mail",
+      "unchanged": true
+    },
+    {
+      "repo": "volparossa-map",
+      "unchanged": true
+    },
+    {
+      "repo": "volparossa-weather",
+      "unchanged": true
+    },
+    {
+      "repo": "volparossa-studio",
+      "unchanged": true
+    },
+    {
+      "repo": "volparossa-bank",
+      "unchanged": true
+    },
+    {
+      "repo": "volparossa-citizen",
+      "unchanged": true
+    },
+    {
+      "repo": "volparossa-chat",
+      "unchanged": true
+    }
+  ],
+  "actions": [
+    {
+      "action": "merge",
+      "repo": "volparossa-browser",
+      "pr": 20,
+      "merge_sha": "ff5305862e431efbc451247b80c4581636ddfe36"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 347,
+      "target": 349
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 356,
+      "target": 353
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 194,
+      "target": 208
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 340,
+      "target": 342
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 233,
+      "target": 279
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa",
+      "pr": 360,
+      "merge_sha": "16ae176af660e3109087d683b9ce2eb64304b0e4"
+    },
+    {
+      "action": "retarget",
+      "repo": "volparossa",
+      "pr": 268,
+      "head": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a",
+      "base": "main"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 267,
+      "target": 268
+    },
+    {
+      "action": "retarget",
+      "repo": "volparossa",
+      "pr": 276,
+      "head": "2d004c2466ef8b76bfa66fdee397ddc67721bcf2",
+      "base": "main"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 271,
+      "target": 276
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 272,
+      "target": 276
+    },
+    {
+      "action": "retarget",
+      "repo": "volparossa",
+      "pr": 300,
+      "head": "6604d813769348d22d5dec47d4a3a8884d2e95fb",
+      "base": "main"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 287,
+      "target": 300
+    },
+    {
+      "action": "retarget",
+      "repo": "volparossa",
+      "pr": 350,
+      "head": "a1002db460230c5d1a07e174f1df20f3aee4f9e9",
+      "base": "main"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa",
+      "pr": 348,
+      "target": 350
+    },
+    {
+      "action": "retarget",
+      "repo": "volparossa-cloud",
+      "pr": 15,
+      "head": "7d10c4943062c5a0ae46fc57e293dc3e33db3ed2",
+      "base": "main"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa-cloud",
+      "pr": 13,
+      "target": 15
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa-cloud",
+      "pr": 14,
+      "target": 15
+    },
+    {
+      "action": "retarget",
+      "repo": "volparossa-image",
+      "pr": 8,
+      "head": "949f208dbb48fcb734d4dfd33eb1933b69830a01",
+      "base": "main"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa-image",
+      "pr": 6,
+      "target": 8
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa-image",
+      "pr": 7,
+      "target": 8
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa",
+      "pr": 362,
+      "merge_sha": "b190eb6e84932b998fdc2fa42c6590d54a471087"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa",
+      "pr": 361,
+      "merge_sha": "9c5162a9263d3ac17196d5ab839953cce2f910cd"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa-image",
+      "pr": 15,
+      "merge_sha": "4c1900b6b273b2046e6a2629b07b84926bd356c8"
+    },
+    {
+      "action": "merge",
+      "repo": ".github",
+      "pr": 16,
+      "merge_sha": "a235adfa593fa87db3e553a002129e60609bec8f"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa-browser",
+      "pr": 23,
+      "merge_sha": "e87e88bb261707cd04fe3b78441d3df7e78bb0bc"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa-code",
+      "pr": 28,
+      "merge_sha": "8aee6baba87b1c2ab5a9639b1801275c46882d28"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa-cloud",
+      "pr": 24,
+      "merge_sha": "a8178c0444b23dfc48821e4bb73c2fc4619c02f4"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa-image",
+      "pr": 18,
+      "merge_sha": "b4715b6324a8f06d3e649b2a360621edb3a1011e"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa-code",
+      "pr": 29,
+      "merge_sha": "6aa4359b3a4d81c6a26c1b6fcee313ea4987a0e4"
+    },
+    {
+      "action": "close-superseded",
+      "repo": "volparossa-code",
+      "pr": 26,
+      "target": 29
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 196,
+      "target": 279,
+      "head": "d8e142ebd199ceadaac9cdc482fc1a1ee4c326eb"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 208,
+      "target": 279,
+      "head": "4faf76caa72149000312ba0546cef59f71ef0981"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 268,
+      "target": 279,
+      "head": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 285,
+      "target": 279,
+      "head": "82a23bdd51bd39a4086bf4f8c6ddc2b925533815"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 300,
+      "target": 279,
+      "head": "6604d813769348d22d5dec47d4a3a8884d2e95fb"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 339,
+      "target": 279,
+      "head": "145c49e35ac875da60cd7ad366fabf4842500d96"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 276,
+      "target": 332,
+      "head": "2d004c2466ef8b76bfa66fdee397ddc67721bcf2"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 346,
+      "target": 350,
+      "head": "1fadbb67cfe25950aaa18b13d1dfeacfe1f12c32"
+    },
+    {
+      "action": "park",
+      "repo": "volparossa",
+      "pr": 345,
+      "target": 350,
+      "head": "e06ed7c2987cfc7650bd4cce1d8e9ec9aeb02392"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa",
+      "pr": 366,
+      "merge_sha": "b4f0ec3d73cc120bac4263a089b06ea43cee5f7d"
+    },
+    {
+      "action": "merge",
+      "repo": "volparossa",
+      "pr": 367,
+      "merge_sha": "a9aee4b3c60c20ae65558cee9326938a444f382e"
+    }
+  ],
+  "draft_integrations": [
+    {
+      "repo": "volparossa-image",
+      "pr": 8,
+      "sha": "770a23fef01cb4cc69303a433b31b9df0d26b44e",
+      "source_checks": "passed",
+      "codeql": "passed",
+      "combined_core_acceptance": "pending"
+    },
+    {
+      "repo": "volparossa-cloud",
+      "pr": 15,
+      "sha": "9c01c932a8443e689f5fd51c1a17d6c96156821a",
+      "source_checks": "passed",
+      "codeql": "passed",
+      "combined_core_acceptance": "pending"
+    }
+  ],
+  "remaining_prs": [
+    {
+      "number": 370,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/370",
+      "title": "build(deps): bump x509-cert from 0.2.5 to 0.3.0",
+      "draft": false,
+      "head": "9163a209b3d0f4c8d676a87b5926a60c7aea99e4"
+    },
+    {
+      "number": 369,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/369",
+      "title": "build(deps): bump the rust-compatible group across 2 directories with 16 updates",
+      "draft": true,
+      "head": "016a4f749ead1f3a1a66fdf050366500b0514082"
+    },
+    {
+      "number": 368,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/368",
+      "title": "build(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2 in the actions-compatible group",
+      "draft": false,
+      "head": "85d9bc9a9e4f54f41902bc5d89c425217d200990"
+    },
+    {
+      "number": 353,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/353",
+      "title": "build(deps): bump hkdf from 0.12.4 to 0.13.0",
+      "draft": false,
+      "head": "8507a5419a8a251a5d3eb279d95292eade38fbff"
+    },
+    {
+      "number": 350,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/350",
+      "title": "test: rebuild Weather decoder from admitted source inputs",
+      "draft": true,
+      "head": "a1002db460230c5d1a07e174f1df20f3aee4f9e9"
+    },
+    {
+      "number": 342,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/342",
+      "title": "Connect Studio export, signed preview and real public-content crash recovery",
+      "draft": false,
+      "head": "5dacd83c8c30a562d5a5e20399ec9f1609b8013a"
+    },
+    {
+      "number": 332,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/332",
+      "title": "Reconcile resident public-model execution with current main",
+      "draft": false,
+      "head": "812b25ed08cee33c6e4a865ce6ce0ba87f5a9e7e"
+    },
+    {
+      "number": 279,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/279",
+      "title": "Join finite automatic uploads to the current Storage consumer profile",
+      "draft": true,
+      "head": "dd1fd4dff55413ade4cfb26ffcb7bf5a9ad26c01"
+    },
+    {
+      "number": 211,
+      "url": "https://github.com/VOLPAROSSA/volparossa/pull/211",
+      "title": "Integrate native Firefox candidate with current scoped route selection",
+      "draft": true,
+      "head": "398287a053266a9087c1ac39791d303355b8c0f5"
+    },
+    {
+      "number": 5,
+      "url": "https://github.com/VOLPAROSSA/volparossa-browser/pull/5",
+      "title": "feat: connect browser AI to cooperative peer execution",
+      "draft": true,
+      "head": "326ce0f2de2b72ce2769e95ddb8b009d6266f2ae"
+    },
+    {
+      "number": 4,
+      "url": "https://github.com/VOLPAROSSA/volparossa-browser/pull/4",
+      "title": "browser: attach scoped HTTPS channels to the core gateway",
+      "draft": true,
+      "head": "c3311ebedcc02dc45ff9c9822cee62f091609f86"
+    },
+    {
+      "number": 10,
+      "url": "https://github.com/VOLPAROSSA/volparossa-chat/pull/10",
+      "title": "build(deps): bump actions/setup-node from 6.5.0 to 7.1.0",
+      "draft": false,
+      "head": "274bcc17bd4a3a9a44a957cfb42febcd8efd53e2"
+    },
+    {
+      "number": 15,
+      "url": "https://github.com/VOLPAROSSA/volparossa-cloud/pull/15",
+      "title": "storage: retain closed deposit diagnostics from core adapter",
+      "draft": true,
+      "head": "9c01c932a8443e689f5fd51c1a17d6c96156821a"
+    },
+    {
+      "number": 19,
+      "url": "https://github.com/VOLPAROSSA/volparossa-image/pull/19",
+      "title": "build(deps): bump minimatch from 10.2.6 to 11.0.4 in /website in the npm_and_yarn group across 1 directory",
+      "draft": false,
+      "head": "f162423c19e781523492227f8b17f5cd62c85182"
+    },
+    {
+      "number": 8,
+      "url": "https://github.com/VOLPAROSSA/volparossa-image/pull/8",
+      "title": "storage: retain bounded owner deposit diagnostics",
+      "draft": true,
+      "head": "770a23fef01cb4cc69303a433b31b9df0d26b44e"
+    },
+    {
+      "number": 11,
+      "url": "https://github.com/VOLPAROSSA/volparossa-map/pull/11",
+      "title": "test: isolate empty KVM VM metadata control (diagnostic only)",
+      "draft": true,
+      "head": "f23d8a8b31633bb62bc3f0581b6332d5273ff880"
+    },
+    {
+      "number": 35,
+      "url": "https://github.com/VOLPAROSSA/volparossa-weather/pull/35",
+      "title": "P15: close Overmorrow hook-state contracts before web verification",
+      "draft": true,
+      "head": "08e5a046bc2f6c6c4a491c297be41b310dcfbd9b"
+    },
+    {
+      "number": 34,
+      "url": "https://github.com/VOLPAROSSA/volparossa-weather/pull/34",
+      "title": "P14: build a bounded Drizz.li candidate through the verified P13 Boundary",
+      "draft": true,
+      "head": "4346f7e6ffc41a53f50597a3a574ba2c268be119"
+    },
+    {
+      "number": 33,
+      "url": "https://github.com/VOLPAROSSA/volparossa-weather/pull/33",
+      "title": "Enforce closed Weather runtime inputs in the existing bwrap harness",
+      "draft": true,
+      "head": "e774912e292f339d42ff23f00b4d8fc5d69e5b47"
+    },
+    {
+      "number": 32,
+      "url": "https://github.com/VOLPAROSSA/volparossa-weather/pull/32",
+      "title": "test: inventory pinned client inputs for source-based Weather builds",
+      "draft": true,
+      "head": "cc779a137511c7a79bf5090a3e89fe361cd107f7"
+    },
+    {
+      "number": 31,
+      "url": "https://github.com/VOLPAROSSA/volparossa-weather/pull/31",
+      "title": "build: prepare guarded decoder builds from signed Debian inputs",
+      "draft": true,
+      "head": "05a7350c702625d99d610a882f50b2fd639edc4e"
+    },
+    {
+      "number": 30,
+      "url": "https://github.com/VOLPAROSSA/volparossa-weather/pull/30",
+      "title": "ci: export reviewed Weather source recipes without bundled runtimes",
+      "draft": false,
+      "head": "1412eed20f1da27102e5582805d33c7613b67c4e"
+    },
+    {
+      "number": 13,
+      "url": "https://github.com/VOLPAROSSA/volparossa-bank/pull/13",
+      "title": "Add retained Bank intents for the ordered Core TEST store",
+      "draft": false,
+      "head": "3e88dd0ac1f70d02f523c9b9d05ce3f3ef191bbc"
+    },
+    {
+      "number": 12,
+      "url": "https://github.com/VOLPAROSSA/volparossa-bank/pull/12",
+      "title": "chore(deps): bump sha2 from 0.11.0 to 0.11.1 in /paper-payments",
+      "draft": false,
+      "head": "911da01d920a54c7d9b78cc8a011d9fd7cffb3a0"
+    },
+    {
+      "number": 6,
+      "url": "https://github.com/VOLPAROSSA/volparossa-bank/pull/6",
+      "title": "chore(deps): bump ed25519-dalek from 2.2.0 to 3.0.0 in /paper-payments",
+      "draft": false,
+      "head": "18af6502f2ac1fd84899b72c0f13104b786b040e"
+    },
+    {
+      "number": 11,
+      "url": "https://github.com/VOLPAROSSA/volparossa-studio/pull/11",
+      "title": "Draft: inventory bounded native runtime prerequisites",
+      "draft": true,
+      "head": "cd64c324284509d1fc004c19c2ea57eb53901ca9"
+    },
+    {
+      "number": 10,
+      "url": "https://github.com/VOLPAROSSA/volparossa-studio/pull/10",
+      "title": "Original local dashboard and rooted name-only filesystem metadata",
+      "draft": true,
+      "head": "42386197c28fc3cf337e75088c0c32e2f4bae0db"
+    },
+    {
+      "number": 9,
+      "url": "https://github.com/VOLPAROSSA/volparossa-studio/pull/9",
+      "title": "Remove native Silex telemetry bootstrap and upstream updater authority",
+      "draft": true,
+      "head": "66f512c444538127b7e59c34d5f618bb8a98d1cf"
+    },
+    {
+      "number": 8,
+      "url": "https://github.com/VOLPAROSSA/volparossa-studio/pull/8",
+      "title": "Bound Silex Rust publication before materializing assets",
+      "draft": true,
+      "head": "8960a6213fce8ef93a19e2b5055cfa88dc682c38"
+    },
+    {
+      "number": 6,
+      "url": "https://github.com/VOLPAROSSA/volparossa-studio/pull/6",
+      "title": "build(deps): bump playwright-core from 1.56.1 to 1.64.1 in /integration/silex-export",
+      "draft": false,
+      "head": "241df157e71ae78af3e5eb664d95dac5a9fc4e93"
+    },
+    {
+      "number": 4,
+      "url": "https://github.com/VOLPAROSSA/volparossa-studio/pull/4",
+      "title": "Prove local Studio viewing and signed public-content recovery",
+      "draft": false,
+      "head": "b0f54a489da745f9948f66daaee2948eb3e53726"
+    }
+  ],
+  "settings_limitations": [
+    "Organization Actions administration HTTP403",
+    "Classic branch protection HTTP403"
+  ],
+  "repository_rulesets": "All 14 read; protection rules unchanged",
+  "new_grouped_proposal_review": {
+    "repo": "volparossa",
+    "pr": 369,
+    "state": "draft",
+    "head": "016a4f749ead1f3a1a66fdf050366500b0514082",
+    "reason": "Changes deliberately exact runtime/compiler pins; requires separate compatibility/native evidence review."
+  }
+}

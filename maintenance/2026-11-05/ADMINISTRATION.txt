@@ -1,0 +1,48 @@
+VOLPAROSSA — beheerstatus op 5 november 2026
+
+Alle 14 repositories hebben een actief ruleset voor de standaardbranch:
+verwijderbescherming, geen history rewrite en een verplichte pull request.
+De 12 code/app-repositories vereisen daarnaast hun eigen relevante Actions-check.
+De organisatieprofielrepo en het openbare portaal hebben geen build-check als
+verplicht criterium. Er zijn geen beschermingseisen verwijderd of versoepeld.
+
+De gekoppelde GitHub-integratie krijgt HTTP 403 bij het uitlezen van klassiek
+branch protection en organisatiebrede Actions-instellingen. Deze instellingen
+zijn dus onbekend. Het bestand export-github-settings.py leest ze met je eigen
+GitHub CLI-login en wijzigt niets. Het exporteert geen secretwaarden.
+
+Download het gecontroleerde script rechtstreeks uit de organisatierepository:
+
+    gh api repos/VOLPAROSSA/.github/contents/scripts/maintenance/export-github-settings.py -H 'Accept: application/vnd.github.raw+json' > export-github-settings.py
+
+Voer het daarna uit:
+
+    python3 export-github-settings.py --output volparossa-settings
+
+Deel daarna de export in deze centrale bouwchat. SUMMARY.json vermeldt expliciet
+welke onderdelen niet konden worden gelezen. Publiceer de export niet in een
+openbare repository; hij kan interne organisatie-instellingen bevatten.
+
+Een concrete, geverifieerde inconsistentie kan direct worden gelijkgezet:
+
+    gh api --method PATCH repos/VOLPAROSSA/volparossa.github.io -F delete_branch_on_merge=true -F allow_update_branch=true
+
+Dit brengt het organisatieportaal gelijk met de overige beheerde repositories:
+automatisch verwijderen na toekomstige PR-merges en de knop voor branchbijwerken.
+Het verandert geen Pages-inhoud, publicatiemethode, domein of branch protection.
+Deze opdracht is hier niet uitgevoerd; de gebruiker voert beheeropdrachten uit
+die de GitHub-plugin niet ondersteunt.
+
+De GitHub Pages van Mail, Map, Weather, Studio, Bank, Citizen en Chat blijven
+gereserveerd. Hun repositories zijn in deze onderhoudsronde niet gewijzigd.
+
+Archief en herstel
+
+De volledige branchnaam, commit-SHA en archieftag staan in branch-archive.json.
+Bij herstel blijft de exacte oorspronkelijke commit beschikbaar. Maak alleen een
+nieuwe branch wanneer je dat werk weer bewust oppakt; de centrale index wijst
+naar de actieve integratie-PR per werkstroom.
+
+De source-controles en CodeQL voor de bijgewerkte Image- en Cloud-drafts slagen.
+Hun gezamenlijke opslagcyclus met Core is daarmee nog niet bewezen. Verander die
+drafts pas in integratiekandidaten na de beschreven gecombineerde acceptatie.

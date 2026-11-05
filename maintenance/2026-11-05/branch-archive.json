@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-05",
+  "archived_count": 42,
+  "method": "Atomic creation of a fresh exact-SHA archive tag and branch deletion with leases; every resulting remote ref verified.",
+  "excluded_repositories": [
+    "volparossa.github.io",
+    "volparossa-mail",
+    "volparossa-map",
+    "volparossa-weather",
+    "volparossa-studio",
+    "volparossa-bank",
+    "volparossa-citizen",
+    "volparossa-chat"
+  ],
+  "branches": [
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "demo/weather-0-20261023",
+      "sha": "0eaff79d0bd5ca7c785f5e20ea4512fd9ca92d39",
+      "archive_tag": "archive/2026-11-05/demo/weather-0-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "demo/weather-0-final-polish-20261023",
+      "sha": "0061a860635b729aef377275e3a0d8df52842ebf",
+      "archive_tag": "archive/2026-11-05/demo/weather-0-final-polish-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "demo/weather-0-media-review-20261023",
+      "sha": "664c461133d6ce0a5b527c3393dc00acd46b3772",
+      "archive_tag": "archive/2026-11-05/demo/weather-0-media-review-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "demo/weather-0-release-draft-20261023",
+      "sha": "a1f268d64dd3b2625c827f2ed77840c65d0a405c",
+      "archive_tag": "archive/2026-11-05/demo/weather-0-release-draft-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "demo/weather-0-short-20261023",
+      "sha": "bb68f23d1006435563c6ea46601203693682aa24",
+      "archive_tag": "archive/2026-11-05/demo/weather-0-short-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "demo/weather-0-video-20261023",
+      "sha": "5c7c5470cef31c37d0cb4f961f221529bda080fb",
+      "archive_tag": "archive/2026-11-05/demo/weather-0-video-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "docs/integration-evidence-20261023",
+      "sha": "a52ab4e77184c1294090e6ff10278560c0267195",
+      "archive_tag": "archive/2026-11-05/docs/integration-evidence-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "docs/model-efficiency-option-a-20261022",
+      "sha": "4b35529434d659f5bf3a4a6ba312b27cb43380ae",
+      "archive_tag": "archive/2026-11-05/docs/model-efficiency-option-a-20261022"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/browser-native-core-route",
+      "sha": "f8dda1e3e5dddac2b208b795f99afe4472c8d861",
+      "archive_tag": "archive/2026-11-05/feature/browser-native-core-route"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/dps-gpsd-input-20261028",
+      "sha": "361a7aeb2023657150b8ca51ead191be9f041283",
+      "archive_tag": "archive/2026-11-05/feature/dps-gpsd-input-20261028"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/helper-restart-single-present-mayown",
+      "sha": "01d550a18064f17b7fe8f35b93d2d4e07b795e5c",
+      "archive_tag": "archive/2026-11-05/feature/helper-restart-single-present-mayown"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/local-signed-site-preview-20261029",
+      "sha": "70f8f31dd4e2aa7fab06929c90da7084a996d1a9",
+      "archive_tag": "archive/2026-11-05/feature/local-signed-site-preview-20261029"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/site-preparation-receipt-20261029",
+      "sha": "5dacd83c8c30a562d5a5e20399ec9f1609b8013a",
+      "archive_tag": "archive/2026-11-05/feature/site-preparation-receipt-20261029"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/storage-absolute-authority",
+      "sha": "5c35aa092bcf52a6b48b40da7d587977cb64e9a3",
+      "archive_tag": "archive/2026-11-05/feature/storage-absolute-authority"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/studio-reviewed-input-20261023",
+      "sha": "4c0e11a2b349f04a12a8a91f1a605367b5db8ca3",
+      "archive_tag": "archive/2026-11-05/feature/studio-reviewed-input-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "fix/f04-helper-final-20261027",
+      "sha": "cd4b644f28e317b9946dad56044a07065672e9eb",
+      "archive_tag": "archive/2026-11-05/fix/f04-helper-final-20261027"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "fix/f04-rustsec-refresh-20261024",
+      "sha": "18d2c49ba9081b3604b95027400f103502466617",
+      "archive_tag": "archive/2026-11-05/fix/f04-rustsec-refresh-20261024"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "fix/f09-core-decoder-source",
+      "sha": "b027d87367262c62d1e70c61102ba87513bbfeec",
+      "archive_tag": "archive/2026-11-05/fix/f09-core-decoder-source"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "maintenance/descriptor-reads-20261020",
+      "sha": "18a420d60c7ec2e5030565a378a8233b6e3f4868",
+      "archive_tag": "archive/2026-11-05/maintenance/descriptor-reads-20261020"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "test/storage-natural-expiry-sequence",
+      "sha": "b2b9c6b3483ba13ad02ee1c1b3b23e1eaf0b8fc9",
+      "archive_tag": "archive/2026-11-05/test/storage-natural-expiry-sequence"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "feature/storage-append-diagnostics",
+      "sha": "dda7a21818ece774445cf63d6e9a01fe0f2803b2",
+      "archive_tag": "archive/2026-11-05/feature/storage-append-diagnostics"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "feature/storage-flow-diagnostics-v8",
+      "sha": "35598609d3fedb5d1241a479c1930c8a6b831661",
+      "archive_tag": "archive/2026-11-05/feature/storage-flow-diagnostics-v8"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "feature/storage-owner-maintenance",
+      "sha": "9cb94fbb83e9f503ff5a66d43ed814f556d4a3af",
+      "archive_tag": "archive/2026-11-05/feature/storage-owner-maintenance"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "feature/storage-stream-diagnostics",
+      "sha": "e0db1cacf7bec2df3925ee454ec6216587b8ddef",
+      "archive_tag": "archive/2026-11-05/feature/storage-stream-diagnostics"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "feature/storage-tls-diagnostics",
+      "sha": "4409c08680eebb3d679a036546691cb541675f97",
+      "archive_tag": "archive/2026-11-05/feature/storage-tls-diagnostics"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "feature/storage-upload-maintenance",
+      "sha": "cea181f1f80d57c9d8047093ed543f40ec43138d",
+      "archive_tag": "archive/2026-11-05/feature/storage-upload-maintenance"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-cloud",
+      "branch": "fix/storage-challenge-read-v10",
+      "sha": "5f143725fd18c98848beb61c9198a82066bfec13",
+      "archive_tag": "archive/2026-11-05/fix/storage-challenge-read-v10"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "feature/storage-absolute-authority",
+      "sha": "eb9758453d094df5ea3ba045e993bd3d2dd47881",
+      "archive_tag": "archive/2026-11-05/feature/storage-absolute-authority"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "feature/storage-append-diagnostics",
+      "sha": "10c46b9d6424929748e324fdd188a2f5ca77851a",
+      "archive_tag": "archive/2026-11-05/feature/storage-append-diagnostics"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "feature/storage-flow-diagnostics-v8",
+      "sha": "1e812ec6424a539a336d230b99ae1c11a494ca29",
+      "archive_tag": "archive/2026-11-05/feature/storage-flow-diagnostics-v8"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "feature/storage-owner-maintenance",
+      "sha": "aade424c3e96d0934edbddf31d2434757aa08564",
+      "archive_tag": "archive/2026-11-05/feature/storage-owner-maintenance"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "feature/storage-stream-diagnostics",
+      "sha": "43029ea8b780de2376a3b7325d24a8e1c657f08e",
+      "archive_tag": "archive/2026-11-05/feature/storage-stream-diagnostics"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "feature/storage-tls-diagnostics",
+      "sha": "ec6b9dca5789a60447c643652c93643b9a6c4af6",
+      "archive_tag": "archive/2026-11-05/feature/storage-tls-diagnostics"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa-image",
+      "branch": "fix/storage-challenge-read-v10",
+      "sha": "f51b8ace0352377c7068a93fc8f4544f18e52978",
+      "archive_tag": "archive/2026-11-05/fix/storage-challenge-read-v10"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "diagnostic/storage-route-selection-20261021",
+      "sha": "6604d813769348d22d5dec47d4a3a8884d2e95fb",
+      "archive_tag": "archive/2026-11-05/diagnostic/storage-route-selection-20261021"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/private-storage-owner-maintenance",
+      "sha": "4faf76caa72149000312ba0546cef59f71ef0981",
+      "archive_tag": "archive/2026-11-05/feature/private-storage-owner-maintenance"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/storage-adaptive-maintenance",
+      "sha": "d8e142ebd199ceadaac9cdc482fc1a1ee4c326eb",
+      "archive_tag": "archive/2026-11-05/feature/storage-adaptive-maintenance"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "feature/storage-owner-maintenance",
+      "sha": "4c31ac3bf54ba9dc84af2da8295bb7ea7854459a",
+      "archive_tag": "archive/2026-11-05/feature/storage-owner-maintenance"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "fix/f09-weather-archive-consumers",
+      "sha": "1fadbb67cfe25950aaa18b13d1dfeacfe1f12c32",
+      "archive_tag": "archive/2026-11-05/fix/f09-weather-archive-consumers"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "fix/f09-weather-artifact-preservation",
+      "sha": "e06ed7c2987cfc7650bd4cce1d8e9ec9aeb02392",
+      "archive_tag": "archive/2026-11-05/fix/f09-weather-artifact-preservation"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "fix/storage-maintenance-rotation-20261023",
+      "sha": "145c49e35ac875da60cd7ad366fabf4842500d96",
+      "archive_tag": "archive/2026-11-05/fix/storage-maintenance-rotation-20261023"
+    },
+    {
+      "repository": "VOLPAROSSA/volparossa",
+      "branch": "test/storage-real-route-deposit-sequence",
+      "sha": "82a23bdd51bd39a4086bf4f8c6ddc2b925533815",
+      "archive_tag": "archive/2026-11-05/test/storage-real-route-deposit-sequence"
+    }
+  ]
+}
