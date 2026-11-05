@@ -1,0 +1,90 @@
+[
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 196,
+    "active_review": 279,
+    "head": "d8e142ebd199ceadaac9cdc482fc1a1ee4c326eb",
+    "branch": "feature/storage-adaptive-maintenance",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/feature/storage-adaptive-maintenance"
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 208,
+    "active_review": 279,
+    "head": "4faf76caa72149000312ba0546cef59f71ef0981",
+    "branch": "feature/private-storage-owner-maintenance",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/feature/private-storage-owner-maintenance"
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 268,
+    "active_review": 279,
+    "head": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a",
+    "branch": "test/storage-challenge-kernel-mptcp",
+    "state": "closed_as_parked",
+    "integrated": false
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 285,
+    "active_review": 279,
+    "head": "82a23bdd51bd39a4086bf4f8c6ddc2b925533815",
+    "branch": "test/storage-real-route-deposit-sequence",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/test/storage-real-route-deposit-sequence"
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 300,
+    "active_review": 279,
+    "head": "6604d813769348d22d5dec47d4a3a8884d2e95fb",
+    "branch": "diagnostic/storage-route-selection-20261021",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/diagnostic/storage-route-selection-20261021"
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 339,
+    "active_review": 279,
+    "head": "145c49e35ac875da60cd7ad366fabf4842500d96",
+    "branch": "fix/storage-maintenance-rotation-20261023",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/fix/storage-maintenance-rotation-20261023"
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 276,
+    "active_review": 332,
+    "head": "2d004c2466ef8b76bfa66fdee397ddc67721bcf2",
+    "branch": "feature/protected-resident-model",
+    "state": "closed_as_parked",
+    "integrated": false
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 346,
+    "active_review": 350,
+    "head": "1fadbb67cfe25950aaa18b13d1dfeacfe1f12c32",
+    "branch": "fix/f09-weather-archive-consumers",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/fix/f09-weather-archive-consumers"
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "pr": 345,
+    "active_review": 350,
+    "head": "e06ed7c2987cfc7650bd4cce1d8e9ec9aeb02392",
+    "branch": "fix/f09-weather-artifact-preservation",
+    "state": "closed_as_parked",
+    "integrated": false,
+    "archive_tag": "archive/2026-11-05/fix/f09-weather-artifact-preservation"
+  }
+]

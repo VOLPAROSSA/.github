@@ -1,0 +1,666 @@
+{
+  "schema": 1,
+  "observed_date": "2026-11-05",
+  "core_commit": "a9248d6dbbed75bc255827580a97ff1aaf321e2a",
+  "previous_db_commit": "99670cfc0bc574433034b75876a4b791ccaa2efb",
+  "candidate_db_commit": "26fd2d43f7280a1fb925a3743ec463017afe7119",
+  "candidate_tree": "6cec6aa884aba1df6d5c62888f21760f4bd1d1de",
+  "locks": {
+    "Cargo.lock": {
+      "sha256": "dc36ac2cb87ce457083126f3b5d48ad2df5e65a8bccc1191c758e54bda193860",
+      "package_count": 561
+    },
+    "fuzz/Cargo.lock": {
+      "sha256": "782afbad801efd26c7045a6c0aab175eaa8888b42718c9e2baa6d836cfc37663",
+      "package_count": 383
+    }
+  },
+  "delta": [
+    {
+      "status": "M",
+      "path": ".duplicate-id-guard"
+    },
+    {
+      "status": "A",
+      "path": "crates/ant-releases/RUSTSEC-2026-0434.md",
+      "id": "RUSTSEC-2026-0434",
+      "package": "ant-releases",
+      "informational": null,
+      "versions": {
+        "patched": []
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/arrow-data/RUSTSEC-2026-0442.md",
+      "id": "RUSTSEC-2026-0442",
+      "package": "arrow-data",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          ">= 60.1.0",
+          ">= 59.3.2, < 60.0.0",
+          ">= 58.4.1, < 59.0.0",
+          ">= 57.3.2, < 58.0.0"
+        ],
+        "unaffected": [
+          "< 33.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/astral-tokio-tar/RUSTSEC-2026-0440.md",
+      "id": "RUSTSEC-2026-0440",
+      "package": "astral-tokio-tar",
+      "informational": "unmaintained",
+      "versions": {
+        "patched": []
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/azure_security_keyvault_certificates/RUSTSEC-2026-0437.md",
+      "id": "RUSTSEC-2026-0437",
+      "package": "azure_security_keyvault_certificates",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 1.0.1, < 1.1.0-beta.0",
+          ">= 1.1.0-beta.2"
+        ],
+        "unaffected": [
+          "< 0.9.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/azure_security_keyvault_keys/RUSTSEC-2026-0439.md",
+      "id": "RUSTSEC-2026-0439",
+      "package": "azure_security_keyvault_keys",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 1.0.1"
+        ],
+        "unaffected": [
+          "< 0.10.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/azure_security_keyvault_secrets/RUSTSEC-2026-0438.md",
+      "id": "RUSTSEC-2026-0438",
+      "package": "azure_security_keyvault_secrets",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 1.0.1"
+        ],
+        "unaffected": [
+          "< 0.10.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/calamine/RUSTSEC-2026-0436.md",
+      "id": "RUSTSEC-2026-0436",
+      "package": "calamine",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.38.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/codeq/RUSTSEC-2026-0432.md",
+      "id": "RUSTSEC-2026-0432",
+      "package": "codeq",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.6.3"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/evtx/RUSTSEC-2026-0431.md",
+      "id": "RUSTSEC-2026-0431",
+      "package": "evtx",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.15.1"
+        ],
+        "unaffected": [
+          "< 0.11.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/juniper/RUSTSEC-2026-0416.md",
+      "id": "RUSTSEC-2026-0416",
+      "package": "juniper",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.17.2"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/juniper/RUSTSEC-2026-0417.md",
+      "id": "RUSTSEC-2026-0417",
+      "package": "juniper",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.17.2"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/juniper_hyper/RUSTSEC-2026-0415.md",
+      "id": "RUSTSEC-2026-0415",
+      "package": "juniper_hyper",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.10.1"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/juniper_warp/RUSTSEC-2026-0419.md",
+      "id": "RUSTSEC-2026-0419",
+      "package": "juniper_warp",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.9.1"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/libz-sys/RUSTSEC-2026-0418.md",
+      "id": "RUSTSEC-2026-0418",
+      "package": "libz-sys",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 1.1.31"
+        ],
+        "unaffected": [
+          "< 1.0.21"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/nix-nar/RUSTSEC-2026-0425.md",
+      "id": "RUSTSEC-2026-0425",
+      "package": "nix-nar",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.6.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/orion/RUSTSEC-2026-0426.md",
+      "id": "RUSTSEC-2026-0426",
+      "package": "orion",
+      "informational": null,
+      "versions": {
+        "patched": [
+          "^0.17.16",
+          ">= 0.18.1"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/orion/RUSTSEC-2026-0428.md",
+      "id": "RUSTSEC-2026-0428",
+      "package": "orion",
+      "informational": null,
+      "versions": {
+        "patched": [
+          "^0.17.16",
+          ">= 0.18.1"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/pin-utils/RUSTSEC-2026-0441.md",
+      "id": "RUSTSEC-2026-0441",
+      "package": "pin-utils",
+      "informational": "unmaintained",
+      "versions": {
+        "patched": []
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/pulldown-cmark/RUSTSEC-2026-0414.md",
+      "id": "RUSTSEC-2026-0414",
+      "package": "pulldown-cmark",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.13.5"
+        ],
+        "unaffected": [
+          "< 0.13.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/pulldown-cmark/RUSTSEC-2026-0433.md",
+      "id": "RUSTSEC-2026-0433",
+      "package": "pulldown-cmark",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.13.6"
+        ],
+        "unaffected": [
+          "< 0.13.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/rio-vt/RUSTSEC-2026-0430.md",
+      "id": "RUSTSEC-2026-0430",
+      "package": "rio-vt",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.5.29"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/sn-releases/RUSTSEC-2026-0427.md",
+      "id": "RUSTSEC-2026-0427",
+      "package": "sn-releases",
+      "informational": null,
+      "versions": {
+        "patched": []
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/thrift/RUSTSEC-2026-0435.md",
+      "id": "RUSTSEC-2026-0435",
+      "package": "thrift",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 0.23.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/wasmtime-wasi-http/RUSTSEC-2026-0421.md",
+      "id": "RUSTSEC-2026-0421",
+      "package": "wasmtime-wasi-http",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 36.0.20, < 37.0.0",
+          ">= 48.0.8, < 49.0.0",
+          ">= 49.0.5, < 50.0.0",
+          ">= 50.0.1"
+        ],
+        "unaffected": []
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/wasmtime-wasi/RUSTSEC-2026-0420.md",
+      "id": "RUSTSEC-2026-0420",
+      "package": "wasmtime-wasi",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 48.0.8, < 49.0.0",
+          ">= 49.0.5, < 50.0.0",
+          ">= 50.0.1"
+        ],
+        "unaffected": [
+          "< 48.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/wasmtime/RUSTSEC-2026-0422.md",
+      "id": "RUSTSEC-2026-0422",
+      "package": "wasmtime",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 48.0.8, < 49.0.0",
+          ">= 49.0.5, < 50.0.0",
+          ">= 50.0.1"
+        ],
+        "unaffected": [
+          "< 47.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/wasmtime/RUSTSEC-2026-0423.md",
+      "id": "RUSTSEC-2026-0423",
+      "package": "wasmtime",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 48.0.8, < 49.0.0",
+          ">= 49.0.5, < 50.0.0",
+          ">= 50.0.1"
+        ],
+        "unaffected": [
+          "< 47.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/wasmtime/RUSTSEC-2026-0424.md",
+      "id": "RUSTSEC-2026-0424",
+      "package": "wasmtime",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 36.0.20, < 37.0.0",
+          ">= 48.0.8, < 49.0.0",
+          ">= 49.0.5, < 50.0.0",
+          ">= 50.0.1"
+        ],
+        "unaffected": []
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "A",
+      "path": "crates/zip/RUSTSEC-2026-0429.md",
+      "id": "RUSTSEC-2026-0429",
+      "package": "zip",
+      "informational": null,
+      "versions": {
+        "patched": [
+          ">= 9.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0395.md",
+      "id": "RUSTSEC-2026-0395",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 4.1.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0396.md",
+      "id": "RUSTSEC-2026-0396",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 7.2.2"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0397.md",
+      "id": "RUSTSEC-2026-0397",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 4.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0398.md",
+      "id": "RUSTSEC-2026-0398",
+      "package": "zstd-safe",
+      "informational": null,
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 7.2.2"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0399.md",
+      "id": "RUSTSEC-2026-0399",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 3.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0400.md",
+      "id": "RUSTSEC-2026-0400",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 3.0.1"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0401.md",
+      "id": "RUSTSEC-2026-0401",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0402.md",
+      "id": "RUSTSEC-2026-0402",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 4.1.4"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0403.md",
+      "id": "RUSTSEC-2026-0403",
+      "package": "zstd-safe",
+      "informational": null,
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 4.0.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0404.md",
+      "id": "RUSTSEC-2026-0404",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 4.1.4"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0405.md",
+      "id": "RUSTSEC-2026-0405",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ],
+        "unaffected": [
+          "< 7.2.2"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd-safe/RUSTSEC-2026-0406.md",
+      "id": "RUSTSEC-2026-0406",
+      "package": "zstd-safe",
+      "informational": "unsound",
+      "versions": {
+        "patched": [
+          "^7.4.0",
+          ">= 8.2.0"
+        ]
+      },
+      "lockfile_matches": []
+    },
+    {
+      "status": "M",
+      "path": "crates/zstd/RUSTSEC-2026-0391.md",
+      "id": "RUSTSEC-2026-0391",
+      "package": "zstd",
+      "informational": null,
+      "versions": {
+        "patched": [
+          "^0.13.4",
+          ">= 0.14.3"
+        ],
+        "unaffected": [
+          "< 0.13.2"
+        ]
+      },
+      "lockfile_matches": []
+    }
+  ],
+  "new_advisories": 29,
+  "modified_advisories": 13,
+  "assessment": "Every new or modified advisory package is absent from both committed lockfiles. This name-level delta review is not a complete vulnerability scan. Hosted Quality with its unchanged offline root/fuzz cargo-deny and cargo-audit checks, vendor reconstruction and public-RSA scope validation remains required.",
+  "api_signature_verified": false,
+  "local_signature_verification_performed": false
+}

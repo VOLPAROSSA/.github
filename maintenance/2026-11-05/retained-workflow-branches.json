@@ -1,0 +1,2192 @@
+[
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "diagnostic/storage-lock-3630ff79",
+    "sha": "793b27cff02d399822672a42ce1b2ed8ef962dbc",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-diagnostic.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "feature/cloud-upload-maintenance-proof",
+    "sha": "4f5e5d7e8d0e017a8881d4ae83a2e6e59c21fba6",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/cloud-upload-maintenance-contracts.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "feature/protected-resident-image",
+    "sha": "339294e0f31c7ebccf7bbffcd18819fefe84dfcc",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-image.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "feature/protected-resident-model",
+    "sha": "2d004c2466ef8b76bfa66fdee397ddc67721bcf2",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-image.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-model.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "feature/protected-resident-task",
+    "sha": "372cad8a58731ca697814763edac94110ce9796b",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "fix/resident-installer-private-create-20261028",
+    "sha": "6c0cb480663f4fcbea270d5cc26db5598fab03ad",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-image.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-model.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-current-main.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-installer-io.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/resident-pinned-compiler.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "fix/resident-pinned-guest-compiler-20261028",
+    "sha": "0d12983afa486e7f18ebc37517dc8a65bd1b346e",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-image.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-model.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-current-main.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-pinned-compiler.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "fix/resident-runtime-assembly-diagnostic-20261028",
+    "sha": "812b25ed08cee33c6e4a865ce6ce0ba87f5a9e7e",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-image.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-model.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-current-main.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-installer-io.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-pinned-compiler.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "integration/resident-current-main-20261028",
+    "sha": "d89aaca694eebb7a81c5a5a0ea9caf1dfa11189c",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-image.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-model.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-resident-task.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/resident-current-main.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03a-f04-clippy-20261027",
+    "sha": "fa70279016baa24f6ac431dcf17bef4c819f8a63",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03a-clippy.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03b-f04-config-clippy-20261027",
+    "sha": "7b9df56ede86621e6e8e9a913f4e1da01c8868d1",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03b-config-clippy.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03c-f04-simple-clippy-20261027",
+    "sha": "5cb77f0b5d06a5a0f9cbde72c53d36261b992a3c",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03c-simple-clippy.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03d-f04-duration-clippy-20261027",
+    "sha": "953fd0b824d1caff6a0d61e8a70ecabe9956e1e5",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03d-duration-clippy.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03e-f04-eight-clippy-20261027",
+    "sha": "0639a42aecc5ed2958edf28fb92260d9c14a0459",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03e-eight-clippy.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03f-f04-collapse-20261027",
+    "sha": "3fd6376de8cccc3688d0dc744c04630eb5c571e4",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03f-collapse.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "proof/p03f-f04-collapse-corrected-20261027",
+    "sha": "f7464cdaa64094abd2727ccd656e6ec34aa74126",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/f04-p03f-collapse.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "test/public-content-daemon-recovery-20261028",
+    "sha": "61252207a9c5b9d708abf3341bf571be9799d77f",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/public-content-daemon.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/rustsec-pin-review.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "test/storage-challenge-backpressure",
+    "sha": "eaf9fa237a83dc3ded35c6afb301cdd35b6b90c9",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-tls-receipt.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "test/storage-challenge-kernel-mptcp",
+    "sha": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-kernel-receipt.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-tls-receipt.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "test/storage-selector-close-20261022",
+    "sha": "e44e085d4b69b0019c57ec96b4eb3d346d26b1e3",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dps-native-quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-cpu-contract.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/native-session-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-quote-outcome.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality-audit-cache.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-acquire-diagnostic.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-append-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-exit-accept.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-fixture-correlation.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-acquire-diagnostics.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-flow-export-v8.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-lock-lifecycle.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-post-acquire-clock.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-route-retirement.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/weather-android-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  },
+  {
+    "repository": "VOLPAROSSA/volparossa",
+    "branch": "test/storage-tls-receipt",
+    "sha": "b2f699e896a241033b7bd11c51a8d2ede25d49f3",
+    "workflows": [
+      {
+        "path": ".github/workflows/alpha-topology.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/dns-cache-proof.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/helper-boundary-evidence.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-admission.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/protected-compute-verifier.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/quality.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/storage-tls-receipt.yml",
+        "issues": [
+          "push event can match the deleted branch"
+        ]
+      },
+      {
+        "path": ".github/workflows/weather-decoder-abi.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-overmorrow-delivery.yml",
+        "issues": []
+      },
+      {
+        "path": ".github/workflows/weather-products-delivery.yml",
+        "issues": []
+      }
+    ],
+    "default_branch_deletion_issues": []
+  }
+]
