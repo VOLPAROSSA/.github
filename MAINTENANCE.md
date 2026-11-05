@@ -56,7 +56,7 @@ relevant checks before it becomes an integration candidate.
 | Order | Work stream | Next concrete result / retained review |
 | --- | --- | --- |
 | Ongoing | Security and routine maintenance | The reviewed [RustSec refresh #367](https://github.com/VOLPAROSSA/volparossa/pull/367) is integrated after Quality and CodeQL passed. The pin is `26fd2d43f7280a1fb925a3743ec463017afe7119`; keep the scheduled advisory review active. Minor/patch proposals are grouped; major upgrades still need individual review. Grouping is not compatibility proof: pre-1.0 minor changes, compiler requirements and deliberately exact pins still need source review. The new [Cargo group #369](https://github.com/VOLPAROSSA/volparossa/pull/369) changes exact runtime/compiler pins and requires that separate review before integration. |
-| 1 | Core and consumer Storage | Start with the cumulative [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279), [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) and [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8). Reconcile current main, then prove one complete upload/renew/repair/restore/delete lifecycle with bounded authority and cleanup. Parked historical [Core #208](https://github.com/VOLPAROSSA/volparossa/pull/208) and [#196](https://github.com/VOLPAROSSA/volparossa/pull/196) contain distinct history and are not claimed equivalent. Parking them does not satisfy #279’s maintenance/consumer acceptance prerequisites. |
+| 1 | Core and consumer Storage | [Core #371](https://github.com/VOLPAROSSA/volparossa/pull/371) restores the bounded maintenance fixture on main; its new actual passes the core lifecycle but fails the subsequent Cloud deposit. Resolve that request's challenge-read deadline before the joined upload trial in cumulative [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279). [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) and [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) remain drafts pending complete consumer acceptance. Parked historical [Core #208](https://github.com/VOLPAROSSA/volparossa/pull/208) and [#196](https://github.com/VOLPAROSSA/volparossa/pull/196) retain distinct history, not equivalent or accepted implementations. |
 | 2 | Resident Compute | Review the accumulated integration in [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) against current main. Parked [#276](https://github.com/VOLPAROSSA/volparossa/pull/276) retains distinct source: its head is not contained in #332. Public-model evidence does not establish confidential execution. |
 | 3 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
 | 4 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) are parked historical records of the blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
@@ -134,6 +134,26 @@ drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
 `9c01c932a8443e689f5fd51c1a17d6c96156821a` pass their hosted source checks and
 CodeQL. Cloud pins exact Image draft bytes with explicit provenance. Full consumer
 Storage acceptance still depends on Core.
+
+[Core #371](https://github.com/VOLPAROSSA/volparossa/pull/371) is integrated as
+`ba6ab458429f5ac50cdc8c3538e6d24f44aad916`, after Quality and CodeQL passed. Its
+[actual trial 42116076218](https://github.com/VOLPAROSSA/volparossa/actions/runs/42116076218)
+passes core maintenance, repeated restore, all-copy deletion and zero provider
+usage, then fails Cloud deposit while reading its challenge length. The complete
+consumer lifecycle remains open. Exact source, diagnostics and cleanup limits
+belong in the [current Storage integration status](https://github.com/VOLPAROSSA/volparossa/blob/3682669226d49f7f3b71eca3e93205a74ca3d2a5/docs/IMPLEMENTATION_STATUS.md#storage-consumer-and-provider-evidence).
+The current application draft pins are prepared separately and remain unpublished
+while the historical consumer baseline is investigated.
+
+Core #279 consolidates its obsolete branch-specific source workflow into Quality.
+Its [42116351790](https://github.com/VOLPAROSSA/volparossa/actions/runs/42116351790)
+passes the focused and workspace tests but reaches the job limit during the final
+integration harness. Follow-up `3682669226d4` separates source and build jobs,
+retains a mandatory final result gate and scopes the existing connection observer
+to Cloud deposit. Hosted checks and a new actual remain required. Cache only
+verified build inputs, never test outcomes. The whole-workflow audit
+cache key also causes unnecessary rebuilds after unrelated test edits; narrowing
+it requires a separate review of every build input and the existing trust boundary.
 
 ## Administrative settings
 
