@@ -125,9 +125,14 @@ See the [exact parked heads](maintenance/2026-11-05/parked-prs.json).
 `archive/2026-11-05/<original-branch>` tags, preserving each exact commit and its
 history. Every resulting remote tag and absent branch was checked. The
 [archive manifest](maintenance/2026-11-05/branch-archive.json) gives the restoration
-reference for each branch. Twenty-one additional historical branches were retained
-because deletion could match a workflow push trigger; they require a separate
-[trigger review](maintenance/2026-11-05/retained-workflow-branches.json). Open PR heads/bases and all owner-reserved repositories were excluded.
+reference for each branch. Twenty-one additional historical branches were initially
+retained for [trigger review](maintenance/2026-11-05/retained-workflow-branches.json).
+That review and a bounded deletion canary are complete, but GitHub's rule engine
+then rejected archival even for one atomic branch/tag pair with
+`fatal error in commit_refs_rules`. All 21 original heads remain unchanged, with
+no new archive tags. The [follow-up record](maintenance/2026-11-05/retained-workflow-review.json)
+preserves the source checks, observed limits and rejection; resume from those facts.
+Open PR heads/bases and all owner-reserved repositories remain excluded.
 
 Cloud #15 and Image #8 have now normally merged current main while remaining
 drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
