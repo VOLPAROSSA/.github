@@ -56,7 +56,7 @@ relevant checks before it becomes an integration candidate.
 | Order | Work stream | Next concrete result / retained review |
 | --- | --- | --- |
 | Ongoing | Security and routine maintenance | Cargo #374 is the active grouped update after #369 and #373 closed. Its dependency check requires the reviewed registry `zbus 6.1.0`. Review the proposed replacement and its upstream tests together. Core #372 delivered the minimatch 11.0.5 fix. Follow the scheduled RustSec pin review. [Cargo proposal](https://github.com/VOLPAROSSA/volparossa/pull/374) · [Quality failure](https://github.com/VOLPAROSSA/volparossa/actions/runs/43964628453) · [website fix](https://github.com/VOLPAROSSA/volparossa/pull/372) · [RustSec review](https://github.com/VOLPAROSSA/volparossa/actions/runs/43915847436) |
-| 1 | Core and consumer Storage | Verify the complete consumer lifecycle on the combined Core source and confirm zero residual usage at all three providers before joined upload or application pin updates. The Cloud and Image integrations are drafts. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
+| 1 | Core and consumer Storage | Identify why foreground `storage peer progress` exited during the Core maintenance upload. Then verify the Image and Cloud lifecycle and zero residual usage at all three providers before joined upload or application pin updates. The Cloud and Image integrations are drafts. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
 | 2 | Resident Compute | Core #332 merged as `f355776a`. Three historical workflows were consolidated into one Rust 1.89 entry point. The integration ref points to the tested source `6ac9f2a8`, where all eleven public trial receipts were verified. Private workloads require separate acceptance. Closed #276 preserves its historical commits. [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) · [public trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/42145544662) · [closed #276](https://github.com/VOLPAROSSA/volparossa/pull/276) |
 | 3 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
 | 4 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) are parked historical records of the blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
@@ -140,12 +140,22 @@ drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
 CodeQL. Cloud pins exact Image draft bytes with explicit provenance. Full consumer
 Storage acceptance still depends on Core.
 
-Storage run 44301340772 uses the combined Storage and Compute source
-`2a8b4fdff5eec755cbad14998d2411f54c066cbe` on draft Core #279. Track the
-consumer outcome and independent provider cleanup in the [hosted trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44301340772).
+Draft Core #279 at `ff268f3e` bounds a client MPTCP connection attempt by
+the caller deadline and the worker lease. The required Quality gate and all five
+CodeQL analyses passed. The end-to-end trial stopped during Core upload when
+foreground `storage peer progress` exited during a maintenance turn. The first
+failing CLI operation is known. Its underlying error remains unclassified.
+Local cleanup reported zero owned objects. Image and Cloud were never started.
+[Quality](https://github.com/VOLPAROSSA/volparossa/actions/runs/44330047802) · [CodeQL](https://github.com/VOLPAROSSA/volparossa/actions/runs/44330036879) · [Exact-source trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44332080434)
 
-All 21 Storage source suites, the combined build and the required Quality gate
-passed. All five CodeQL analyses passed. [Quality](https://github.com/VOLPAROSSA/volparossa/actions/runs/42147777520) · [CodeQL](https://github.com/VOLPAROSSA/volparossa/actions/runs/42147771678)
+The preceding trial on `11a1c34e` stored eight fragment copies, then could not
+select a route after Core restarted. Earlier runs reached Image after Core
+deleted eleven copies and all three providers reported zero usage. Image then
+failed during publication and left consumer leases outstanding.
+[Restart trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44325758765) · [Consumer evidence and source revisions](https://github.com/VOLPAROSSA/volparossa/blob/ff268f3e40a9fdc4eceae2ae10a27f87accc3f58/docs/IMPLEMENTATION_STATUS.md#storage-consumer-and-provider-evidence) · [Earlier combined trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44301340772)
+
+On the earlier combined source `2a8b4fdf`, all 21 Storage source suites,
+the build and the required Quality gate passed. All five CodeQL analyses passed. [Quality](https://github.com/VOLPAROSSA/volparossa/actions/runs/42147777520) · [CodeQL](https://github.com/VOLPAROSSA/volparossa/actions/runs/42147771678)
 
 The earlier trial on `3e8a27e3` passed Core maintenance through two restores,
 deletion of eleven copies and independent zero usage at three providers. Image
