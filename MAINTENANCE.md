@@ -56,7 +56,7 @@ relevant checks before it becomes an integration candidate.
 | Order | Work stream | Next concrete result / retained review |
 | --- | --- | --- |
 | Ongoing | Security and routine maintenance | Cargo #374 is the active grouped update after #369 and #373 closed. Its dependency check requires the reviewed registry `zbus 6.1.0`. Review the proposed replacement and its upstream tests together. Core #372 delivered the minimatch 11.0.5 fix. Follow the scheduled RustSec pin review. [Cargo proposal](https://github.com/VOLPAROSSA/volparossa/pull/374) · [Quality failure](https://github.com/VOLPAROSSA/volparossa/actions/runs/43964628453) · [website fix](https://github.com/VOLPAROSSA/volparossa/pull/372) · [RustSec review](https://github.com/VOLPAROSSA/volparossa/actions/runs/43915847436) |
-| 1 | Core and consumer Storage | Trace the Cloud catalog creation failure after its Storage restore returned verified. Verify the Image and Cloud lifecycle and zero residual usage at all three providers before joined upload or application pin updates. The Cloud and Image integrations are drafts. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
+| 1 | Core and consumer Storage | Trace the incomplete Storage restore during Cloud catalog creation. Then verify catalog creation, Image and Cloud recovery after provider withdrawal, and zero residual usage at all three providers before joined upload or application pin updates. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
 | 2 | Resident Compute | Core #332 merged as `f355776a`. Three historical workflows were consolidated into one Rust 1.89 entry point. The integration ref points to the tested source `6ac9f2a8`, where all eleven public trial receipts were verified. Private workloads require separate acceptance. Closed #276 preserves its historical commits. [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) · [public trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/42145544662) · [closed #276](https://github.com/VOLPAROSSA/volparossa/pull/276) |
 | 3 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
 | 4 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) are parked historical records of the blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
@@ -139,6 +139,16 @@ drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
 `9c01c932a8443e689f5fd51c1a17d6c96156821a` pass their hosted source checks and
 CodeQL. Cloud pins exact Image draft bytes with explicit provenance. Full consumer
 Storage acceptance still depends on Core.
+
+On `5186411b`, Core again restored the archive twice, deleted eleven copies
+and reached zero usage on all three Core providers. The fixture reduced the
+Cloud catalog GnuPG socket path from 105 to 102 bytes. Quality and CodeQL
+passed. The catalog's single Storage restore returned
+`retained_operation_incomplete` with `restore_verified=false`. It stopped
+before Cloud could decrypt the file using the shorter path. The three consumer
+providers still held 6, 6 and 4 leases. Guest cleanup recorded zero remaining
+fixture-owned objects.
+[Quality](https://github.com/VOLPAROSSA/volparossa/actions/runs/44348766162) · [CodeQL](https://github.com/VOLPAROSSA/volparossa/actions/runs/44348748897) · [Exact-source trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44348799240) · [Trial artifact](https://github.com/VOLPAROSSA/volparossa/actions/runs/44348799240/artifacts/14452602822)
 
 On `49955656`, the foreground `storage peer progress` call succeeded. Core
 restored the archive twice, deleted all eleven copies and independently measured
