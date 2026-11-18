@@ -56,7 +56,7 @@ relevant checks before it becomes an integration candidate.
 | Order | Work stream | Next concrete result / retained review |
 | --- | --- | --- |
 | Ongoing | Security and routine maintenance | Cargo #374 is the active grouped update after #369 and #373 closed. Its dependency check requires the reviewed registry `zbus 6.1.0`. Review the proposed replacement and its upstream tests together. Core #372 delivered the minimatch 11.0.5 fix. Follow the scheduled RustSec pin review. [Cargo proposal](https://github.com/VOLPAROSSA/volparossa/pull/374) · [Quality failure](https://github.com/VOLPAROSSA/volparossa/actions/runs/43964628453) · [website fix](https://github.com/VOLPAROSSA/volparossa/pull/372) · [RustSec review](https://github.com/VOLPAROSSA/volparossa/actions/runs/43915847436) |
-| 1 | Core and consumer Storage | Identify why foreground `storage peer progress` exited during the Core maintenance upload. Then verify the Image and Cloud lifecycle and zero residual usage at all three providers before joined upload or application pin updates. The Cloud and Image integrations are drafts. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
+| 1 | Core and consumer Storage | Trace the Cloud catalog creation failure after its Storage restore returned verified. Verify the Image and Cloud lifecycle and zero residual usage at all three providers before joined upload or application pin updates. The Cloud and Image integrations are drafts. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
 | 2 | Resident Compute | Core #332 merged as `f355776a`. Three historical workflows were consolidated into one Rust 1.89 entry point. The integration ref points to the tested source `6ac9f2a8`, where all eleven public trial receipts were verified. Private workloads require separate acceptance. Closed #276 preserves its historical commits. [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) · [public trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/42145544662) · [closed #276](https://github.com/VOLPAROSSA/volparossa/pull/276) |
 | 3 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
 | 4 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) are parked historical records of the blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
@@ -140,7 +140,21 @@ drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
 CodeQL. Cloud pins exact Image draft bytes with explicit provenance. Full consumer
 Storage acceptance still depends on Core.
 
-Draft Core #279 at `ff268f3e` bounds a client MPTCP connection attempt by
+On `49955656`, the foreground `storage peer progress` call succeeded. Core
+restored the archive twice, deleted all eleven copies and independently measured
+zero leases and bytes at each of its three providers. The same call now has an
+opt-in bounded failure diagnostic. The hosted CLI test verified its exit status
+and JSON output. The collector test verified byte-for-byte retention of a
+synthetic foreground failure receipt.
+
+Consumer publication stopped at `cloud_catalog_create` with
+`catalog_materialization_failed`. The Cloud catalog's single Storage restore
+returned `ok` with verified content and a joined local process. The catalog
+failure remains unclassified within that step. The three consumer providers
+still had 6, 6 and 4 leases. The VM reported zero remaining fixture-owned objects.
+[Quality](https://github.com/VOLPAROSSA/volparossa/actions/runs/44341148430) · [CodeQL](https://github.com/VOLPAROSSA/volparossa/actions/runs/44341135770) · [Exact-source trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44341178239) · [Trial artifact](https://github.com/VOLPAROSSA/volparossa/actions/runs/44341178239/artifacts/14445958116)
+
+The previous revision `ff268f3e` bounds a client MPTCP connection attempt by
 the caller deadline and the worker lease. The required Quality gate and all five
 CodeQL analyses passed. The end-to-end trial stopped during Core upload when
 foreground `storage peer progress` exited during a maintenance turn. The first
