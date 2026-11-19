@@ -1,0 +1,150 @@
+{
+  "repository": "VOLPAROSSA/volparossa",
+  "date": "2026-11-19",
+  "branches": [
+    {
+      "branch": "diagnostic/storage-lock-3630ff79",
+      "commit": "793b27cff02d399822672a42ce1b2ed8ef962dbc",
+      "archive_tag": "archive/2026-11-19/diagnostic/storage-lock-3630ff79",
+      "workflow_runs": [
+        {
+          "id": 38692344925,
+          "conclusion": "failure",
+          "source": "793b27cff02d399822672a42ce1b2ed8ef962dbc"
+        }
+      ]
+    },
+    {
+      "branch": "feature/cloud-upload-maintenance-proof",
+      "commit": "4f5e5d7e8d0e017a8881d4ae83a2e6e59c21fba6",
+      "archive_tag": "archive/2026-11-19/feature/cloud-upload-maintenance-proof",
+      "workflow_runs": [
+        {
+          "id": 38889754250,
+          "conclusion": "success",
+          "source": "4f5e5d7e8d0e017a8881d4ae83a2e6e59c21fba6"
+        },
+        {
+          "id": 38888241967,
+          "conclusion": "failure",
+          "source": "da3a38b61c0e7e23fe9e41c08a869f3ec4aff457"
+        },
+        {
+          "id": 38730435481,
+          "conclusion": "success",
+          "source": "f91958bd5eacc365898dbcd0c7a5c6fb86b454a3"
+        },
+        {
+          "id": 38656306237,
+          "conclusion": "success",
+          "source": "0456782ad8d58db91d53cf3d14fe3edcf505aa7a"
+        },
+        {
+          "id": 38646685620,
+          "conclusion": "success",
+          "source": "400d3a13175fa69c06b48cd9fafcfa7623ffab7f"
+        },
+        {
+          "id": 38643293864,
+          "conclusion": "failure",
+          "source": "23a86dc7d8e49fa50a2b18657e6bf87ed097679f"
+        },
+        {
+          "id": 38617137672,
+          "conclusion": "success",
+          "source": "c550e5e822c210475aeb9be4dd8b9c72df024056"
+        },
+        {
+          "id": 38611923475,
+          "conclusion": "failure",
+          "source": "803f2c34365020f500b984ec060e91a05eb6a1e7"
+        }
+      ]
+    },
+    {
+      "branch": "fix/resident-installer-private-create-20261028",
+      "commit": "6c0cb480663f4fcbea270d5cc26db5598fab03ad",
+      "archive_tag": "archive/2026-11-19/fix/resident-installer-private-create-20261028",
+      "workflow_runs": [
+        {
+          "id": 40733987518,
+          "conclusion": "success",
+          "source": "6c0cb480663f4fcbea270d5cc26db5598fab03ad"
+        }
+      ]
+    },
+    {
+      "branch": "test/storage-challenge-backpressure",
+      "commit": "eaf9fa237a83dc3ded35c6afb301cdd35b6b90c9",
+      "archive_tag": "archive/2026-11-19/test/storage-challenge-backpressure",
+      "workflow_runs": [
+        {
+          "id": 38826092150,
+          "conclusion": "success",
+          "source": "eaf9fa237a83dc3ded35c6afb301cdd35b6b90c9"
+        },
+        {
+          "id": 38824933092,
+          "conclusion": "failure",
+          "source": "cccc999875ac2790c27e3c42ae06ebb8d347ca31"
+        }
+      ]
+    },
+    {
+      "branch": "test/storage-challenge-kernel-mptcp",
+      "commit": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a",
+      "archive_tag": "archive/2026-11-19/test/storage-challenge-kernel-mptcp",
+      "workflow_runs": [
+        {
+          "id": 38829082612,
+          "conclusion": "success",
+          "source": "d5f13087a4c8e03d0cca209edc274ae9bd6b9c9a"
+        },
+        {
+          "id": 38827974182,
+          "conclusion": "failure",
+          "source": "f28510356adfe9147fe3dbb1b5521187d86fdd70"
+        }
+      ]
+    },
+    {
+      "branch": "test/storage-selector-close-20261022",
+      "commit": "e44e085d4b69b0019c57ec96b4eb3d346d26b1e3",
+      "archive_tag": "archive/2026-11-19/test/storage-selector-close-20261022",
+      "workflow_runs": [
+        {
+          "id": 39827774691,
+          "conclusion": "success",
+          "source": "e44e085d4b69b0019c57ec96b4eb3d346d26b1e3"
+        },
+        {
+          "id": 39700094433,
+          "conclusion": "failure",
+          "source": "d1f3f4d3b8fce97f5fad8b8e07ac69f1ffdedfbb"
+        },
+        {
+          "id": 39699910087,
+          "conclusion": "failure",
+          "source": "23d91418efd3fef5054c1bddfcc9f739ed3ba4c2"
+        }
+      ]
+    },
+    {
+      "branch": "test/storage-tls-receipt",
+      "commit": "b2f699e896a241033b7bd11c51a8d2ede25d49f3",
+      "archive_tag": "archive/2026-11-19/test/storage-tls-receipt",
+      "workflow_runs": [
+        {
+          "id": 38709817601,
+          "conclusion": "success",
+          "source": "b2f699e896a241033b7bd11c51a8d2ede25d49f3"
+        },
+        {
+          "id": 38709049101,
+          "conclusion": "failure",
+          "source": "7de7749fe38ad67e748d51b46c40c446a8f6b295"
+        }
+      ]
+    }
+  ]
+}
