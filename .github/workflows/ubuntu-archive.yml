@@ -12,21 +12,38 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        runner: [ubuntu-22.04, ubuntu-24.04]
+        include:
+          - runner: ubuntu-22.04
+            block_primary: false
+          - runner: ubuntu-24.04
+            block_primary: false
+          - runner: ubuntu-24.04
+            block_primary: true
     runs-on: ${{ matrix.runner }}
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - name: Force the first HTTPS archive connection to fail
+        if: matrix.block_primary
+        shell: bash
+        run: |
+          echo 'Acquire::https::Proxy::azure.archive.ubuntu.com "http://127.0.0.1:1";' \
+            | sudo tee /etc/apt/apt.conf.d/99volparossa-archive-test >/dev/null
       - id: archive
         uses: ./actions/ubuntu-archive
       - name: Verify the archive signature and install the native prerequisites
         shell: bash
         env:
           ARCHIVE_CONFIG: ${{ steps.archive.outputs.config }}
+          BLOCK_PRIMARY: ${{ matrix.block_primary }}
         run: |
-          sudo apt-get -c "$ARCHIVE_CONFIG" update
+          if [[ "$BLOCK_PRIMARY" = true ]]; then
+            sites=$(apt-get -c "$ARCHIVE_CONFIG" indextargets --format '$(SITE)' 'Identifier: Packages')
+            test -n "$sites"
+            if grep -Fq azure.archive.ubuntu.com <<< "$sites"; then exit 1; fi
+          fi
           if [[ $(. /etc/os-release && echo "$VERSION_CODENAME") == noble ]]; then
             packages=(protobuf-compiler=3.21.12-8.2ubuntu0.4 libprotoc32t64=3.21.12-8.2ubuntu0.4
               libprotobuf32t64=3.21.12-8.2ubuntu0.4 qemu-utils libfdt1 seabios)
@@ -35,3 +52,6 @@ jobs:
           fi
           sudo apt-get -c "$ARCHIVE_CONFIG" install -y --no-install-recommends "${packages[@]}"
           if [[ ${packages[0]} == *=* ]]; then test "$(protoc --version)" = 'libprotoc 3.21.12'; fi
+      - name: Remove the test-only proxy override
+        if: always() && matrix.block_primary
+        run: sudo rm -f /etc/apt/apt.conf.d/99volparossa-archive-test
