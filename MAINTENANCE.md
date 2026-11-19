@@ -125,6 +125,8 @@ The 5 November pass excluded open PR heads and bases and the application sites r
 
 On 19 November, seven completed F04 Clippy experiment branches from the retained list were archived. Each atomic push created a tag at the exact original commit and removed its branch. A fresh remote lookup verified every pair. The archive records the successful and failed Actions runs and their original source revisions. [Seven archived experiments](maintenance/2026-11-19/f04-workflow-archive.json)
 
+Seven further historical branches are archived at their original commits. They cover four Storage transport experiments, the one-revision lock diagnostic, the earlier Cloud upload proof and the resident installer. The last two commits are in central development. The archive indexes all 19 Actions runs, including nine failures. [Storage and resident archive](maintenance/2026-11-19/storage-and-resident-archive.json)
+
 ### Earlier Storage trials
 
 On 5 November, Cloud #15 and Image #8 had merged the then-current main while remaining
