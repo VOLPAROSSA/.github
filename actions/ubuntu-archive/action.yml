@@ -1,0 +1,40 @@
+name: Signed Ubuntu archive mirrors
+description: Prepare a job-local APT configuration for official Ubuntu packages
+outputs:
+  config:
+    description: Configuration file for apt-get -c
+    value: ${{ steps.prepare.outputs.config }}
+runs:
+  using: composite
+  steps:
+    - id: prepare
+      shell: bash
+      run: |
+        set -euo pipefail
+        test "$RUNNER_ENVIRONMENT" = github-hosted
+        . /etc/os-release
+        test "$ID" = ubuntu && test "$(dpkg --print-architecture)" = amd64
+        case "$VERSION_CODENAME" in jammy|noble) ;; *) exit 1 ;; esac
+        keyring=/usr/share/keyrings/ubuntu-archive-keyring.gpg
+        test -s "$keyring"
+        archive=$(mktemp -d /tmp/volparossa-apt.XXXXXXXXXX)
+        mkdir "$archive/lists"
+        chmod 755 "$archive" "$archive/lists"
+        printf '%s\tpriority:%s\n' \
+          https://mirrors.edge.kernel.org/ubuntu/ 1 \
+          https://mirrors.mit.edu/ubuntu/ 2 \
+          https://archive.ubuntu.com/ubuntu/ 3 > "$archive/mirrors"
+        for pocket in "$VERSION_CODENAME" "$VERSION_CODENAME-updates" "$VERSION_CODENAME-security"; do
+          printf 'deb [arch=amd64 signed-by=%s] mirror+file:%s/mirrors %s main universe\n' "$keyring" "$archive" "$pocket"
+        done > "$archive/ubuntu.list"
+        cat > "$archive/apt.conf" <<CONF
+        Dir::Etc::sourcelist "$archive/ubuntu.list";
+        Dir::Etc::sourceparts "-";
+        Dir::State::lists "$archive/lists";
+        Acquire::Languages "none";
+        Acquire::Retries "2";
+        Acquire::https::Timeout "15";
+        APT::Update::Error-Mode "any";
+        CONF
+        chmod 644 "$archive"/{apt.conf,mirrors,ubuntu.list}
+        echo "config=$archive/apt.conf" >> "$GITHUB_OUTPUT"
