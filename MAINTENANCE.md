@@ -127,6 +127,8 @@ On 19 November, seven completed F04 Clippy experiment branches from the retained
 
 Seven further historical branches are archived at their original commits. They cover four Storage transport experiments, the one-revision lock diagnostic, the earlier Cloud upload proof and the resident installer. The last two commits are in central development. The archive indexes all 19 Actions runs, including nine failures. [Storage and resident archive](maintenance/2026-11-19/storage-and-resident-archive.json)
 
+The three resident-model compiler and integration branches from October have been archived at their exact commits. All three commits are ancestors of both protected Core main and the tested consolidated resident-model workflow. The archive records all eight hosted runs, including four failures. [Original branches, tags and runs](maintenance/2026-11-19/resident-workflow-archive.json) · [Consolidated public model run](https://github.com/VOLPAROSSA/volparossa/actions/runs/42145544662)
+
 ### Earlier Storage trials
 
 On 5 November, Cloud #15 and Image #8 had merged the then-current main while remaining

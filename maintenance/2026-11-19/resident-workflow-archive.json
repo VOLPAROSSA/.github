@@ -1,0 +1,77 @@
+{
+  "repository": "VOLPAROSSA/volparossa",
+  "replacement_branch": "integration/resident-model-main-20261022",
+  "replacement_commit": "6ac9f2a8c2a2b66c0e4692172fecb45f0e68c467",
+  "replacement_run": 42145544662,
+  "branches": [
+    {
+      "branch": "fix/resident-pinned-guest-compiler-20261028",
+      "commit": "0d12983afa486e7f18ebc37517dc8a65bd1b346e",
+      "archive_tag": "archive/2026-11-19/fix/resident-pinned-guest-compiler-20261028",
+      "runs": [
+        {
+          "id": 40731223835,
+          "source": "0d12983afa486e7f18ebc37517dc8a65bd1b346e",
+          "workflow": ".github/workflows/resident-pinned-compiler.yml",
+          "conclusion": "failure"
+        },
+        {
+          "id": 40730953306,
+          "source": "0d12983afa486e7f18ebc37517dc8a65bd1b346e",
+          "workflow": ".github/workflows/resident-pinned-compiler.yml",
+          "conclusion": "success"
+        },
+        {
+          "id": 40729245993,
+          "source": "ff5c8a4a52e52732c35f69915746c3fdc55cee3a",
+          "workflow": ".github/workflows/resident-pinned-compiler.yml",
+          "conclusion": "failure"
+        }
+      ]
+    },
+    {
+      "branch": "fix/resident-runtime-assembly-diagnostic-20261028",
+      "commit": "812b25ed08cee33c6e4a865ce6ce0ba87f5a9e7e",
+      "archive_tag": "archive/2026-11-19/fix/resident-runtime-assembly-diagnostic-20261028",
+      "runs": [
+        {
+          "id": 40744937287,
+          "source": "812b25ed08cee33c6e4a865ce6ce0ba87f5a9e7e",
+          "workflow": ".github/workflows/resident-pinned-compiler.yml",
+          "conclusion": "success"
+        },
+        {
+          "id": 40744481552,
+          "source": "812b25ed08cee33c6e4a865ce6ce0ba87f5a9e7e",
+          "workflow": ".github/workflows/resident-pinned-compiler.yml",
+          "conclusion": "success"
+        },
+        {
+          "id": 40743906994,
+          "source": "8f4b6ff0213cedaa6a5dabd0a2dbbcb7da104489",
+          "workflow": ".github/workflows/resident-pinned-compiler.yml",
+          "conclusion": "failure"
+        }
+      ]
+    },
+    {
+      "branch": "integration/resident-current-main-20261028",
+      "commit": "d89aaca694eebb7a81c5a5a0ea9caf1dfa11189c",
+      "archive_tag": "archive/2026-11-19/integration/resident-current-main-20261028",
+      "runs": [
+        {
+          "id": 40728728602,
+          "source": "d89aaca694eebb7a81c5a5a0ea9caf1dfa11189c",
+          "workflow": ".github/workflows/resident-current-main.yml",
+          "conclusion": "success"
+        },
+        {
+          "id": 40726481045,
+          "source": "683c312f4f7a3590b0c5d3c5521eb017f28e4cfe",
+          "workflow": ".github/workflows/resident-current-main.yml",
+          "conclusion": "failure"
+        }
+      ]
+    }
+  ]
+}
