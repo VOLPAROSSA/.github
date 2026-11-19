@@ -1,10 +1,6 @@
 # VOLPAROSSA maintenance and integration
 
-This is the organization-wide starting point for development coordination.
-The central maintenance session established on **5 November 2026** owns the
-active queue; older sessions are retired. Repository requirements, source-bound
-evidence and GitHub protections remain authoritative. This index coordinates
-them without declaring unfinished features accepted.
+The owner-designated central build chat coordinates the full VOLPAROSSA alpha across repositories. It manages pull requests, branches, worktrees, workflows, Actions and repository settings. Older build sessions are retired. The project goal defines the scope and the implementation status records what has run. [Project goal and mandate](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/GOAL.md) · [Implementation status](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/IMPLEMENTATION_STATUS.md)
 
 ## Start here
 
@@ -41,25 +37,18 @@ them without declaring unfinished features accepted.
 | [volparossa-citizen](https://github.com/VOLPAROSSA/volparossa-citizen) | Citizen application. |
 | [volparossa-studio](https://github.com/VOLPAROSSA/volparossa-studio) | Studio authoring, local preview and authorized publication integration. |
 
-**Owner-reserved work:** the GitHub Pages of Mail, Map, Weather, Studio, Bank,
-Citizen and Chat remain with the owner. Do not modify their site content,
-publication workflows, Pages settings or shared portal content that would change
-those pages. The November maintenance pass leaves those seven repositories
-unchanged. Any later non-site work in them must keep this boundary explicit.
+Maintain application code, public documentation and existing websites through their ordinary repository checks. Keep public claims tied to working features and original evidence. Financial and legal commitments, external outreach and DNS or hosting changes follow the owner's authorization in the project goal.
 
 ## Active integration queue
 
-Use these as work streams, not instructions to merge every linked PR.
-Each retained cumulative draft must reconcile with current main and pass the
-relevant checks before it becomes an integration candidate.
-
-| Order | Work stream | Next concrete result / retained review |
-| --- | --- | --- |
-| Ongoing | Security and routine maintenance | Cargo #374 is the active grouped update after #369 and #373 closed. Its dependency check requires the reviewed registry `zbus 6.1.0`. Review the proposed replacement and its upstream tests together. Core #372 delivered the minimatch 11.0.5 fix. Follow the scheduled RustSec pin review. [Cargo proposal](https://github.com/VOLPAROSSA/volparossa/pull/374) · [Quality failure](https://github.com/VOLPAROSSA/volparossa/actions/runs/43964628453) · [website fix](https://github.com/VOLPAROSSA/volparossa/pull/372) · [RustSec review](https://github.com/VOLPAROSSA/volparossa/actions/runs/43915847436) |
-| 1 | Core and consumer Storage | Trace the incomplete Storage restore during Cloud catalog creation. Then verify catalog creation, Image and Cloud recovery after provider withdrawal, and zero residual usage at all three providers before joined upload or application pin updates. [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) |
-| 2 | Resident Compute | Core #332 merged as `f355776a`. Three historical workflows were consolidated into one Rust 1.89 entry point. The integration ref points to the tested source `6ac9f2a8`, where all eleven public trial receipts were verified. Private workloads require separate acceptance. Closed #276 preserves its historical commits. [Core #332](https://github.com/VOLPAROSSA/volparossa/pull/332) · [public trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/42145544662) · [closed #276](https://github.com/VOLPAROSSA/volparossa/pull/276) |
-| 3 | Browser integration | [Browser #4](https://github.com/VOLPAROSSA/volparossa-browser/pull/4), [#5](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) and [Core #211](https://github.com/VOLPAROSSA/volparossa/pull/211) need their combined core/runtime boundary reviewed. Browser branches diverge and both remain drafts. |
-| 4 | Source builds and publication | [Core #350](https://github.com/VOLPAROSSA/volparossa/pull/350) owns the cumulative Weather decoder source-build review. [#345](https://github.com/VOLPAROSSA/volparossa/pull/345)/[#346](https://github.com/VOLPAROSSA/volparossa/pull/346) are parked historical records of the blocked artifact-archive design; do not activate it implicitly. [Core #342](https://github.com/VOLPAROSSA/volparossa/pull/342) retains Studio publication integration. Protected application Pages remain excluded. |
+| Work stream | Current dependency and evidence |
+| --- | --- |
+| Storage, Image and Cloud | Finish a single twelve-node run through publication, repair, cold restore and deletion with zero usage at all three providers. The foreground Cloud upload has already recovered the original bytes after provider loss. The next joined run exercises the bounded challenge retry and durable owner accounting. [Combined trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44430761553) · [Core #279](https://github.com/VOLPAROSSA/volparossa/pull/279) · [Image #8](https://github.com/VOLPAROSSA/volparossa-image/pull/8) · [Cloud #15](https://github.com/VOLPAROSSA/volparossa-cloud/pull/15) |
+| Private Compute | The ordinary owner path refused four requests in the no-device trial and released no private input. Positive private execution requires a machine that can supply the approved hardware evidence. [Refusal and public receipts](https://github.com/VOLPAROSSA/volparossa/pull/394) · [Verified public resident session](https://github.com/VOLPAROSSA/volparossa/pull/332) |
+| Browser and Code | The pinned Firefox source built offline. Its first runtime reached the first origin request and stopped at the second. Verify both HTTPS requests and disconnection on the corrected origin, then complete the cooperative path. Code's model-driven read, edit and test scenario still needs the production editor UI. [Firefox](https://github.com/VOLPAROSSA/volparossa/pull/211) · [Cooperative Browser](https://github.com/VOLPAROSSA/volparossa-browser/pull/5) · [OpenCode trial](https://github.com/VOLPAROSSA/volparossa-code/actions/runs/38824828727) |
+| Studio and Weather | Complete independent Studio retrieval after publication and keep the actual editor exports and owner recovery reproducible. Weather's two cold Drizz.li builds produced identical output in all 97 files. The separate Flutter build is tracked with Overmorrow. [Studio publication](https://github.com/VOLPAROSSA/volparossa/pull/393) · [Drizz.li comparison](https://github.com/VOLPAROSSA/volparossa-weather/pull/41) · [Overmorrow](https://github.com/VOLPAROSSA/volparossa-weather/pull/35) |
+| Applications | Follow the actual client through restart or expiry. Thunderbird recovered the original message from a restarted mailbox. The Signal Desktop receipt test reopened the four original rows with their expected states. Continue the peer Map traffic path and native verification of synthetic Citizen counts. [Mail](https://github.com/VOLPAROSSA/volparossa-mail/pull/15) · [Chat](https://github.com/VOLPAROSSA/volparossa-chat/pull/17) · [Map](https://github.com/VOLPAROSSA/volparossa/pull/403) · [Citizen](https://github.com/VOLPAROSSA/volparossa-citizen/pull/9) |
+| Transactions and maintenance | Four validators replayed the same Bank TEST transfers after restart. Current Core includes the maintained D-Bus integration and keeps ordinary main Quality runs from canceling each other. Reconcile the X.509 update with the SEV certificate verifier. [Bank replay](https://github.com/VOLPAROSSA/volparossa/pull/391) · [D-Bus](https://github.com/VOLPAROSSA/volparossa/pull/396) · [Quality](https://github.com/VOLPAROSSA/volparossa/pull/398) · [X.509 migration](https://github.com/VOLPAROSSA/volparossa/issues/404) |
 
 Parked Storage diagnostics [#268](https://github.com/VOLPAROSSA/volparossa/pull/268),
 [#300](https://github.com/VOLPAROSSA/volparossa/pull/300),
@@ -129,12 +118,16 @@ reference for each branch. Twenty-one additional historical branches were initia
 retained for [trigger review](maintenance/2026-11-05/retained-workflow-branches.json).
 That review and a bounded deletion canary are complete, but GitHub's rule engine
 then rejected archival even for one atomic branch/tag pair with
-`fatal error in commit_refs_rules`. All 21 original heads remain unchanged, with
+`fatal error in commit_refs_rules`. At the 5 November observation, all 21 original heads were present, with
 no new archive tags. The [follow-up record](maintenance/2026-11-05/retained-workflow-review.json)
 preserves the source checks, observed limits and rejection; resume from those facts.
-Open PR heads/bases and all owner-reserved repositories remain excluded.
+The 5 November pass excluded open PR heads and bases and the application sites reserved at the time.
 
-Cloud #15 and Image #8 have now normally merged current main while remaining
+On 19 November, seven completed F04 Clippy experiment branches from the retained list were archived. Each atomic push created a tag at the exact original commit and removed its branch. A fresh remote lookup verified every pair. The archive records the successful and failed Actions runs and their original source revisions. [Seven archived experiments](maintenance/2026-11-19/f04-workflow-archive.json)
+
+### Earlier Storage trials
+
+On 5 November, Cloud #15 and Image #8 had merged the then-current main while remaining
 drafts. Image `770a23fef01cb4cc69303a433b31b9df0d26b44e` and Cloud
 `9c01c932a8443e689f5fd51c1a17d6c96156821a` pass their hosted source checks and
 CodeQL. Cloud pins exact Image draft bytes with explicit provenance. Full consumer

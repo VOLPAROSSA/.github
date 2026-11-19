@@ -1,0 +1,120 @@
+{
+  "repository": "VOLPAROSSA/volparossa",
+  "date": "2026-11-19",
+  "branches": [
+    {
+      "branch": "proof/p03a-f04-clippy-20261027",
+      "commit": "fa70279016baa24f6ac431dcf17bef4c819f8a63",
+      "archive_tag": "archive/2026-11-19/proof/p03a-f04-clippy-20261027",
+      "workflow_runs": [
+        {
+          "id": 40423197595,
+          "conclusion": "success",
+          "source": "fa70279016baa24f6ac431dcf17bef4c819f8a63"
+        }
+      ]
+    },
+    {
+      "branch": "proof/p03b-f04-config-clippy-20261027",
+      "commit": "7b9df56ede86621e6e8e9a913f4e1da01c8868d1",
+      "archive_tag": "archive/2026-11-19/proof/p03b-f04-config-clippy-20261027",
+      "workflow_runs": [
+        {
+          "id": 40425589280,
+          "conclusion": "success",
+          "source": "7b9df56ede86621e6e8e9a913f4e1da01c8868d1"
+        },
+        {
+          "id": 40424915920,
+          "conclusion": "success",
+          "source": "0c4a6261aa7378a51f08da4dcebb314eed810076"
+        }
+      ]
+    },
+    {
+      "branch": "proof/p03c-f04-simple-clippy-20261027",
+      "commit": "5cb77f0b5d06a5a0f9cbde72c53d36261b992a3c",
+      "archive_tag": "archive/2026-11-19/proof/p03c-f04-simple-clippy-20261027",
+      "workflow_runs": [
+        {
+          "id": 40427572865,
+          "conclusion": "success",
+          "source": "5cb77f0b5d06a5a0f9cbde72c53d36261b992a3c"
+        }
+      ]
+    },
+    {
+      "branch": "proof/p03d-f04-duration-clippy-20261027",
+      "commit": "953fd0b824d1caff6a0d61e8a70ecabe9956e1e5",
+      "archive_tag": "archive/2026-11-19/proof/p03d-f04-duration-clippy-20261027",
+      "workflow_runs": [
+        {
+          "id": 40430758608,
+          "conclusion": "success",
+          "source": "953fd0b824d1caff6a0d61e8a70ecabe9956e1e5"
+        },
+        {
+          "id": 40429871583,
+          "conclusion": "failure",
+          "source": "510a72597891f8dfd627b4a162a3f62718aeda0e"
+        }
+      ]
+    },
+    {
+      "branch": "proof/p03e-f04-eight-clippy-20261027",
+      "commit": "0639a42aecc5ed2958edf28fb92260d9c14a0459",
+      "archive_tag": "archive/2026-11-19/proof/p03e-f04-eight-clippy-20261027",
+      "workflow_runs": [
+        {
+          "id": 40433495652,
+          "conclusion": "success",
+          "source": "0639a42aecc5ed2958edf28fb92260d9c14a0459"
+        }
+      ]
+    },
+    {
+      "branch": "proof/p03f-f04-collapse-20261027",
+      "commit": "3fd6376de8cccc3688d0dc744c04630eb5c571e4",
+      "archive_tag": "archive/2026-11-19/proof/p03f-f04-collapse-20261027",
+      "workflow_runs": [
+        {
+          "id": 40440169320,
+          "conclusion": "failure",
+          "source": "3fd6376de8cccc3688d0dc744c04630eb5c571e4"
+        }
+      ]
+    },
+    {
+      "branch": "proof/p03f-f04-collapse-corrected-20261027",
+      "commit": "f7464cdaa64094abd2727ccd656e6ec34aa74126",
+      "archive_tag": "archive/2026-11-19/proof/p03f-f04-collapse-corrected-20261027",
+      "workflow_runs": [
+        {
+          "id": 40454047110,
+          "conclusion": "failure",
+          "source": "f7464cdaa64094abd2727ccd656e6ec34aa74126"
+        },
+        {
+          "id": 40453975004,
+          "conclusion": "failure",
+          "source": "edfcc5a87625a9c98cd65549670c16a439679788"
+        },
+        {
+          "id": 40448304472,
+          "conclusion": "failure",
+          "source": "75c72cd3737845d62cc8a63eb9e99d7a8fcc8083"
+        },
+        {
+          "id": 40445396460,
+          "conclusion": "success",
+          "source": "620f7a08720d52337ca47da021523544bfcbfbbc"
+        },
+        {
+          "id": 40441172845,
+          "conclusion": "success",
+          "source": "3af8f8ba574d7201d6ff2cabae14b56eaf71075f"
+        }
+      ]
+    }
+  ]
+}
