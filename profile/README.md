@@ -16,25 +16,6 @@ One reusable core connects the applications, so they can draw on the same shared
 
 [Our purpose](#why-we-are-building-this) · [The network](#one-shared-foundation) · [Applications](#familiar-tools-connected-differently) · [Our principles](#modern-technology-universal-wisdom)
 
-## See VOLPAROSSA in action
-
-[![Weather Demo 0: the genuine Overmorrow Android app beside a conceptual VOLPAROSSA network diagram](https://github.com/VOLPAROSSA/volparossa/releases/download/weather-demo-0.1.0/thumbnail-final-web.webp)](https://github.com/VOLPAROSSA/volparossa/releases/tag/weather-demo-0.1.0)
-
-**Weather Demo 0: a real app using shared resources.** The installed Overmorrow
-Android app displays ECMWF IFS weather and NOAA GEFS-Aerosols PM2.5 forecasts in
-an emulator, delivered through cooperating peers and an external Debian 13 Core.
-
-[**Watch the video (MP4)**](https://github.com/VOLPAROSSA/volparossa/releases/download/weather-demo-0.1.0/weather-demo-0-final.mp4) · [Release and downloads](https://github.com/VOLPAROSSA/volparossa/releases/tag/weather-demo-0.1.0) · [Transcript](https://github.com/VOLPAROSSA/volparossa/releases/download/weather-demo-0.1.0/transcript-final.txt)
-
-This one-minute development preview runs at normal speed, with a labelled excerpt
-replay and a labelled 13-second loading cut. The diagram is conceptual; reports
-establish peer delivery, cache reuse and background/resume, beyond what pixels
-alone can show. It is not a standalone Android Core or supported end-user release;
-physical devices and iOS remain unverified.
-
-[Evidence and reproduction](https://github.com/VOLPAROSSA/volparossa/blob/a1f268d64dd3b2625c827f2ed77840c65d0a405c/docs/demos/weather-demo-0/README.md) ·
-[ECMWF, NOAA and Overmorrow attribution](https://github.com/VOLPAROSSA/volparossa/blob/a1f268d64dd3b2625c827f2ed77840c65d0a405c/docs/demos/weather-demo-0/NOTICES.md)
-
 ## Why we are building this
 
 ### More help than one device can provide
@@ -101,6 +82,7 @@ The application family builds on existing open-source work rather than asking ev
 | [**Chat**](https://github.com/VOLPAROSSA/volparossa-chat) | Signal | Decentralized delivery, encrypted calls and private backups. |
 | [**Mail**](https://github.com/VOLPAROSSA/volparossa-mail) | Thunderbird + Stalwart | Existing addresses, cooperative intelligence and self-hosted mail. |
 | [**Code**](https://github.com/VOLPAROSSA/volparossa-code) | OpenCode integration | Coding agents supported by shared models and coordinated work. |
+| [**Studio**](https://github.com/VOLPAROSSA/volparossa-studio) | Silex | Visual website editing and portable export, with shared publishing, hosting and AI assistance in development. |
 | [**Cloud**](https://github.com/VOLPAROSSA/volparossa-cloud) | OpenCloud | Private files and synchronization beyond one always-on server. |
 | [**Image**](https://github.com/VOLPAROSSA/volparossa-image) | Immich | Photo and video libraries with encrypted storage and recoverable state. |
 | [**Map**](https://github.com/VOLPAROSSA/volparossa-map) | Organic Maps | Offline navigation, shared map delivery and privacy-conscious traffic information. |
