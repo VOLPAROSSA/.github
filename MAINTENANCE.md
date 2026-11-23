@@ -13,8 +13,7 @@ The owner-designated central build chat coordinates the full VOLPAROSSA alpha ac
 3. Choose one bounded result from the queue below. Refresh its live head, base,
    diff and required checks before integrating; a historical green run is valid
    only for the inputs it actually tested.
-4. Follow [AGENTS](https://github.com/VOLPAROSSA/volparossa/blob/main/AGENTS.md)
-   and the [shared workflow](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/CODEX_WORKFLOW.md).
+4. Follow the owning repository's `AGENTS.md` and the [shared workflow](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/CODEX_WORKFLOW.md).
    Put current capability evidence in implementation status, original failures
    in their retained record, and cross-repository coordination here.
 
