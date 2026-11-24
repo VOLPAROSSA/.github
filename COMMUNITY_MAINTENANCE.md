@@ -13,7 +13,7 @@ results; link a barrier's issue to its fix and actual test conditions.
 
 ## Checklist for a new public repository
 
-- Add a root `AGENTS.md` that points to the [shared development workflow](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/CODEX_WORKFLOW.md)
+- Add a root `AGENTS.md` that points to the [shared development workflow](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/WORKFLOW.md)
   and describes the repository's own contracts and checks. Coding agents read
   this file from the checkout. Keep common workflow changes in Core.
 - Confirm the default accessibility guidance appears in the repository's
