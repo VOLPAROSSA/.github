@@ -1,0 +1,74 @@
+### Current maintenance candidate, 19 November 2026
+
+The independent Core withdrawal failed on `e9cb0479` before either application started. Four fragments had two signed copies each. One original A copy had already been replaced before A went offline. Fragment 2 reached replacement verification on the second repair turn. The next ten turns resumed that same signed intent and each reported an unavailable surviving copy. During the phase the sampler recorded 15 completed MPTCP/TLS exchanges and a change in the selected data relays. The phase-wide observations cannot identify the route of a particular request. The guest cleaned up and its host-state digests matched. [Original 47-file archive, SHA-256 `cf18a47a513fe01c57484ed60c914716bfff3ac6ba8bde85369cc912e9054144`](https://github.com/VOLPAROSSA/volparossa/actions/runs/44547259846/artifacts/14544279830)
+
+On `142b1a6f`, both attempts stopped in the source checks before a guest started. The original Signal reporter process timed out on attempt one and passed on attempt two. Attempt two exposed a stale assertion that searched for the former fixed-route sampler call. The replacement executes all five supported phase and route combinations and checks that a failed owner or rejected measurement leaves no success record. The regular Storage gate now runs both sampler suites. The Cloud deadline contract also accepts the protected Signal mailbox alongside the existing 150-minute scenarios and retains the separate 270-minute Cloud deadline. [First attempt](https://github.com/VOLPAROSSA/volparossa/actions/runs/44561797842/job/135692797232) · [Second attempt](https://github.com/VOLPAROSSA/volparossa/actions/runs/44561797842/job/135696299788)
+
+The joint trial on `3dedd5f0` measures Core recovery and deletion on the same nine UDP-only broker/provider links that Image and Cloud use. Each observed context retains its exact control peer, two data relays, Exit and completed protected flows. The host rebuilds the Core report from original records, including kernel snapshots before and after both phases. Both survivors must supply their original individual byte minimum and provider A must send zero payload while offline. All twelve repair turns, the signed grants and the current app source pins are preserved. [Joint twelve-node trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44568672976)
+
+The paired trial on `200d58c5` published Image and stopped during Cloud FINALIZE for fragment 1, copy 1. Its sole reported operation failure was a missing control route before the agent sent READY. Both owners confirmed deletion. The separate eleven-copy Core lifecycle ended with zero leases, reserved bytes and committed bytes at all three providers. An independent reading of the failed application deposits is absent. The guest cleaned up and its network digests matched. [Original archive, SHA-256 `c90eb64a…c01ae792`](https://github.com/VOLPAROSSA/volparossa/actions/runs/44537092652/artifacts/14539650755)
+
+The trial on `e9cb0479` used the same Image `21988efc` and Cloud `08be9711`. FINALIZE now shares the existing single foreground recovery allowance. Before READY, the owner can reopen a qualifying connection. After sending FINALIZE, only a signed read-only observation can recover a lost final receipt. The fixture now measures provider usage after a failed shared publication while preserving the healthy Cloud continuation. [Storage correction](https://github.com/VOLPAROSSA/volparossa/pull/445) · [Completed paired trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44547259846)
+
+The twelve-node run on Core `200d58c5` uses the same Storage implementation, fixture trees and exact Image and Cloud revisions as `874d5528`. The earlier runner spent 55 minutes 52 seconds in Ubuntu package setup. Its last APT progress was the third signed MIT InRelease at 12:53:01 UTC. We cancelled it after Actions accepted the replacement with a bounded signed mirror selection. The guest step was skipped and the earlier run produced zero artifacts. [Original job](https://github.com/VOLPAROSSA/volparossa/actions/runs/44526543731/job/135568525398) · [Completed paired trial](https://github.com/VOLPAROSSA/volparossa/actions/runs/44537092652)
+
+The shared VM on `bb48e128` reached Cloud publication and then stopped before READY on RESERVE for fragment 3, copy 0. The agent reported `CONTENT_UNAVAILABLE` during stream opening with local route state as its reason. A separate bind error (errno 98) has no request identity. Both owners confirmed deletion and A, B and C each independently reported zero leases, reserved bytes and committed bytes. Guest cleanup completed and the host-state digests matched. This trial used the earlier application revisions. [Original artifact](https://github.com/VOLPAROSSA/volparossa/actions/runs/44516433050/artifacts/14529597943) · [Earlier runner](https://github.com/VOLPAROSSA/volparossa/actions/runs/44526543731)
+
+The separate Cloud continuation run on `cf93b5a2` stopped during its prerequisite shared Image deposit. Its only observed failure was APPEND for fragment 3, copy 1. The agent returned `CONTENT_UNAVAILABLE` at control selection before READY. The Image owner confirmed deletion, Cloud had no archive and the independent Core test deleted all eleven copies. The isolated guest cleaned up and its network snapshots matched. The archive has no per-provider usage sample for this failed Image deposit. The current app pair still needs its own successful joined run. [Original artifact and run](https://github.com/VOLPAROSSA/volparossa/actions/runs/44514676250/artifacts/14527619866)
+
+On Core `cf93b5a2` the twelve-node run completed the independent eleven-copy lifecycle. Image then reported one failed operation, with zero omitted failures. FINALIZE on fragment 2, copy 1 reached its operation deadline while the agent was reading the provider receipt. The provider state at that instant remains unknown. Image later confirmed deletion. Cloud had no archive. All three providers reported zero leases and zero reserved and committed bytes. The guest host snapshots matched. [Original run and archive](https://github.com/VOLPAROSSA/volparossa/actions/runs/44455715673/artifacts/14499901605)
+
+The next twelve-node trial on Core `e5d06b21` stopped during Image publication. Finalizing fragment 2, copy 0 exceeded its TLS handshake deadline. Three reservations stopped before READY. Two each made eight helper acquisition attempts and the third made three. Image’s owner confirmed deletion. Cloud had no archive. All three providers reported zero leases, reserved bytes and committed bytes. The host snapshots matched. The combined repair and restore remain open. [Original run](https://github.com/VOLPAROSSA/volparossa/actions/runs/44447515035)
+
+The twelve-node run on Core `b856970b` closed the standalone eleven-copy Core lifecycle. Cloud reported one reserve refusal before READY on fragment 1, copy 1 (`CONTENT_POLICY`). The incomplete fixture sample cannot identify its cause. Both application owners confirmed deletion and all three providers reported zero leases, reserved bytes and committed bytes. Joined repair and cold restore remain open. [Original run](https://github.com/VOLPAROSSA/volparossa/actions/runs/44440163724) · [Original receipts](https://github.com/VOLPAROSSA/volparossa/pull/416)
+
+`21988efc1ba112a9840e0f052f4e4d0dc56a9d63` merges Image main `c3f505b7` into the reviewed candidate `770a23fe`. Both the snapshot-storage CLI and Core adapter, with their two JavaScript test files, have the same Git blobs as the previous candidate. All 78 Node tests and six Immich acquisition/peer Python tests passed locally. The hosted source-contract job passed. [Source checks](https://github.com/VOLPAROSSA/volparossa-image/actions/runs/44433636426)
+
+The earlier twelve-node run passed Image enrollment and reached Cloud deposition. Two Cloud fragment-copy operations stopped before a protected stream opened, and another reservation returned CONTENT_POLICY. The owner confirmed deletion for both applications. All three providers independently reported zero leases, reserved bytes and committed bytes. Joint repair and cold restore remain open. [Original run](https://github.com/VOLPAROSSA/volparossa/actions/runs/44430761553) · [Machine reports](https://github.com/VOLPAROSSA/volparossa/pull/407)
+
+### Earlier candidate history
+
+> Central integration — 2026-11-05: Current cumulative draft head is `770a23fef01cb4cc69303a433b31b9df0d26b44e`, a normal merge with current main (`b4715b6324a8f06d3e649b2a360621edb3a1011e`). Main's explicit, mutually exclusive diagnostic selection and the branch's finite maintenance controls are both preserved. All 78 source-contract tests pass with the hosted runner's umask. The enrollment regression now reads its inode through the opened descriptor; hosted source-contracts and all CodeQL language checks now pass on this exact head (source run 42090364901; CodeQL run 42090357316). The earlier Actions scan failed because this branch had no Actions source; current-main workflow integration restores it. Actual consumer upload/renew/repair/restore/delete acceptance remains pending, so this remains draft.
+
+## Retained historical review
+
+Predecessor PRs #6 and #7 are consolidated here. The following original evidence belongs to its recorded revisions; older head references are historical.
+
+## Current stream diagnostic candidate — 2026-10-14
+
+Current head: `949f208dbb48fcb734d4dfd33eb1933b69830a01`. This supersedes the current-head/then-running labels in the historical notes below; the PR remains a draft.
+
+Accept closed core diagnostics v5, including the ten finite protected-stream opening causes, only for a matching pre-READY `CONTENT_UNAVAILABLE / stream_open / none` rejection with no provider-TLS detail. Preserve exact v1–v4 shapes, the eight-record bound, copy/omission accounting, completion, authority, retries, ciphertext handling and cleanup. No raw error, path, key, address or identity is exported.
+
+All 55 targeted Node adapter tests pass. Independent review additionally compares 26,656 historical v1–v4 variants in memory against the previous adapter: acceptance, rejection and closed output are identical. Shared adapter: 46,596 bytes, SHA-256 `b7c86b85ab0b9ca21c9059296c434895bcfd1e21dbf46cf23eed3d42697e1edf`.
+
+Core PR232 profile 6 pins Image `949f208d` and Cloud `7d10c494`. Hosted compilation and the new actual combined storage trial remain pending. Last actual run `38611919770` failed during consumer publication; these contract checks do not prove peer custody, successful protected transfer, consumer repair/restore or remote cleanup, and do not establish the cause of that failure.
+
+<details>
+<summary>Historical candidate evidence</summary>
+
+## Scope
+
+Candidate `87a8016652db629a0afefb41d88b3056539bee17` preserves optional, closed core deposit diagnostics after existing accounting validation. Historical v1 remains unchanged; v2 accepts only a null or strictly validated initial-agent stage/deadline detail. Contradictory version/code/stage combinations and extra raw fields are rejected. Paths, keys, identifiers, addresses and error text are not exported.
+
+Require at most eight unique copy failures, exact retained-copy count bounds and a full eight entries before omissions. Existing completion, charging, retry, authority and cleanup behavior remains unchanged. Old core reports without the optional field retain their previous summary shape.
+
+## Verification
+
+47 targeted Node 24.19.0 tests pass with zero skips, including the closed v2 matrix, historical/null handling, malformed/redaction cases and omission/completion accounting. No Rust, provider-transfer or distributed-repair success is claimed by these adapter tests.
+
+Core profile 3 pins this exact revision together with Cloud `54a00b58`. [Protected maintenance trial 38453132258](https://github.com/VOLPAROSSA/volparossa/actions/runs/38453132258) is running; combined consumer acceptance remains pending.
+
+Stacked on PR #7. This remains a draft until the coordinated integration is verified.
+
+## Additive TLS diagnostics update — 2026-10-14
+
+Current head: `3b5830476dabd548debfdfade4fdf72acb4fa992`, a direct descendant of `87a8016652db629a0afefb41d88b3056539bee17`. The paragraphs above are preserved historical candidate evidence; their then-running trial status is not a current acceptance claim.
+
+The bridge additionally accepts diagnostic version 3. Its seven failure fields retain the v2 shape; non-null `agent_detail` has exactly `stage`, `deadline_scope` and required nullable `tls_failure`. A non-null TLS value is restricted to `offer`, `configuration`, `handshake_deadline`, `authentication`, `tls_other` or `io`, only for `agent_ready / agent_rejected / CONTENT_UNAVAILABLE` with detail `tls_handshake / none`. Historical v1/v2 shapes remain exact, including rejecting even a null `tls_failure` field in v2. Eight-entry bounds, unique copies, omission accounting, charges, completion, retries and cleanup remain unchanged; no raw errors, paths or identifiers are exported.
+
+Verification: 50 targeted Node contract tests passed, with zero skips. This includes synthetic child-process reports, all six TLS classes, null and historical cases, strict field/privacy rejection and copy/omission accounting. Shared adapter: 43,538 bytes, SHA256 `ff498f066afd8f5533900a18aeed0f2ad0958bce95c7eb864fac131972f53259`.
+
+Cloud counterpart: `ea24b6cd53a14b204a7b8fbfda5c76ec9ca297e7`. Joint core profile-4 consumer/TLS live verification remains open. These adapter checks do not prove a successful protected transfer or establish the cause of a previous TLS failure. This PR remains a draft; no merge or extra workflow dispatch is part of this update.
+
+</details>

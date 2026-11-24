@@ -66,6 +66,11 @@ Maintain application code, public documentation and existing websites through th
 
 The [November integration record](maintenance/2026-11-19/integration-record.md) preserves the former queue and its source revisions.
 
+The following snapshots preserve the original Storage pull request descriptions
+from the November handover, including their tested revisions, failed runs and
+artifact digests. The live pull requests track the current integration.
+[Core #279](maintenance/2026-11-25/volparossa-pr279.md.txt) · [Cloud #15](maintenance/2026-11-25/volparossa-cloud-pr15.md.txt) · [Image #8](maintenance/2026-11-25/volparossa-image-pr8.md.txt)
+
 ### [November consolidation record](maintenance/2026-11-19/integration-record.md#november-consolidation-record)
 
 ### [Parked experiments and branch archive](maintenance/2026-11-19/integration-record.md#parked-experiments-and-branch-archive)
