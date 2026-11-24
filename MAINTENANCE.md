@@ -12,7 +12,7 @@ and Core, use the [architecture source map](https://github.com/VOLPAROSSA/volpar
 to locate the shared Network, Cache, Storage, Compute or Transaction contract.
 When splitting interface changes, assign distinct paths and record both source
 revisions for the integration check.
-Follow the [shared development workflow](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/CODEX_WORKFLOW.md).
+Follow the [shared development workflow](https://github.com/VOLPAROSSA/volparossa/blob/main/docs/development/WORKFLOW.md).
 
 ## Repository ownership
 
